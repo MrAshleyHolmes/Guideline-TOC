@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.17)  7 MAY 2017 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.17)  8 MAY 2017 22:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -589,24 +589,24 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [6
 
 
-] [7] [8]
-[9])
+] [7] [8])
 \tf@toc=\write5
 \openout5 = `Thesis.toc'.
 
- [10] (./Thesis.lot)
+
+[9] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- [11
+ [10
 
-] (./Thesis.lof)
+] (./Thesis.lof [11
+
+])
 \tf@lof=\write7
 \openout7 = `Thesis.lof'.
 
- [12
-
-]
+ [12]
 Abbreviations
 \openout2 = `abbreviations.aux'.
 
@@ -653,7 +653,7 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 ) [2]
 Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment.
-<Figures/sdlc_agile_model.png, id=599, 616.3025pt x 445.665pt>
+<Figures/sdlc_agile_model.png, id=511, 616.3025pt x 445.665pt>
 File: Figures/sdlc_agile_model.png Graphic file (type png)
 
 <use Figures/sdlc_agile_model.png>
@@ -668,7 +668,7 @@ LaTeX Warning: Float too large for page by 48.65634pt on input line 283.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/gantt.png, id=614, 1284.8pt x 626.34pt>
+<Figures/gantt.png, id=526, 1284.8pt x 626.34pt>
 File: Figures/gantt.png Graphic file (type png)
  <use Figures/gantt.png>
 Package pdftex.def Info: Figures/gantt.png used on input line 286.
@@ -710,21 +710,21 @@ Overfull \hbox (5.33023pt too wide) in paragraph at lines 13--14
 Ques-tions and an-swers are sep-a-rated.
  []
 
-<Figures/function_module.png, id=630, 587.19376pt x 358.33875pt>
+<Figures/function_module.png, id=541, 587.19376pt x 358.33875pt>
 File: Figures/function_module.png Graphic file (type png)
 
 <use Figures/function_module.png>
 Package pdftex.def Info: Figures/function_module.png used on input line 16.
 (pdftex.def)             Requested size: 400.0pt x 244.10455pt.
 
-<Figures/road_map.png, id=633, 573.14125pt x 151.56625pt>
+<Figures/road_map.png, id=544, 573.14125pt x 151.56625pt>
 File: Figures/road_map.png Graphic file (type png)
 
 <use Figures/road_map.png>
 Package pdftex.def Info: Figures/road_map.png used on input line 21.
 (pdftex.def)             Requested size: 400.0pt x 105.78111pt.
 
-<Figures/Flow_chart.png, id=636, 619.31375pt x 299.1175pt>
+<Figures/Flow_chart.png, id=547, 619.31375pt x 299.1175pt>
 File: Figures/Flow_chart.png Graphic file (type png)
 
 <use Figures/Flow_chart.png>
@@ -765,7 +765,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 
 
 ] [13]
-<figures/incrementally-over-all-at-once.png, id=672, 582.175pt x 262.9825pt>
+<figures/incrementally-over-all-at-once.png, id=583, 582.175pt x 262.9825pt>
 File: figures/incrementally-over-all-at-once.png Graphic file (type png)
 
 <use figures/incrementally-over-all-at-once.png>
@@ -773,7 +773,7 @@ Package pdftex.def Info: figures/incrementally-over-all-at-once.png used on inp
 ut line 26.
 (pdftex.def)             Requested size: 400.0pt x 180.69167pt.
 
-<figures/burn-down-simple.png, id=675, 582.175pt x 259.97125pt>
+<figures/burn-down-simple.png, id=586, 582.175pt x 259.97125pt>
 File: figures/burn-down-simple.png Graphic file (type png)
 
 <use figures/burn-down-simple.png>
@@ -786,7 +786,7 @@ Overfull \hbox (6.33577pt too wide) in paragraph at lines 43--44
 s and cut scope (rec-om-mended).
  []
 
-<figures/update-the-plan.png, id=684, 539.01375pt x 263.98625pt>
+<figures/update-the-plan.png, id=596, 539.01375pt x 263.98625pt>
 File: figures/update-the-plan.png Graphic file (type png)
 
 <use figures/update-the-plan.png>
@@ -798,20 +798,67 @@ Excluding 'comment' comment.) [17]
 
  (./chapter4.tex
 Chapter 4.
-[18
+
+Overfull \hbox (2.12523pt too wide) in paragraph at lines 12--13
+\OT1/ptm/m/n/12 built on a Mac OS so the in-struc-tions would vary slightly due
+ to the com-mand line in-struc-tions
+ []
+
+<figures/symfony_installation.png, id=613, 681.54625pt x 227.85126pt>
+File: figures/symfony_installation.png Graphic file (type png)
+
+<use figures/symfony_installation.png>
+Package pdftex.def Info: figures/symfony_installation.png used on input line 16
+.
+(pdftex.def)             Requested size: 400.0pt x 133.7253pt.
+ [18
 
 
 
 ]
-Overfull \hbox (2.41034pt too wide) in paragraph at lines 28--29
-[]\OT1/ptm/m/n/12 The third phase is ob-ject ori-ented im-ple-men-ta-tion. In t
-his phase the de-sign is im-ple-mented
- []
+<figures/new_application.png, id=618, 671.50874pt x 451.6875pt>
+File: figures/new_application.png Graphic file (type png)
 
-[19] [20] [21]) [22]
+<use figures/new_application.png>
+Package pdftex.def Info: figures/new_application.png used on input line 25.
+(pdftex.def)             Requested size: 400.0pt x 269.0572pt.
+
+<figures/terminal_window_top.png, id=621, 1367.1075pt x 859.21pt>
+File: figures/terminal_window_top.png Graphic file (type png)
+
+<use figures/terminal_window_top.png>
+Package pdftex.def Info: figures/terminal_window_top.png used on input line 34.
+
+(pdftex.def)             Requested size: 400.0pt x 251.3933pt.
+
+<figures/terminal_window_bottom.png, id=622, 1367.1075pt x 859.21pt>
+File: figures/terminal_window_bottom.png Graphic file (type png)
+
+<use figures/terminal_window_bottom.png>
+Package pdftex.def Info: figures/terminal_window_bottom.png used on input line 
+41.
+(pdftex.def)             Requested size: 400.0pt x 251.3933pt.
+ [19 <./figures/symfony_installation.png>] [20 <./figures/new_application.png> 
+<./figures/terminal_window_top.png>]
+<figures/php_server_run.png, id=636, 1367.1075pt x 859.21pt>
+File: figures/php_server_run.png Graphic file (type png)
+
+<use figures/php_server_run.png>
+Package pdftex.def Info: figures/php_server_run.png used on input line 50.
+(pdftex.def)             Requested size: 400.0pt x 251.3933pt.
+
+<figures/php_server_start.png, id=637, 1367.1075pt x 859.21pt>
+File: figures/php_server_start.png Graphic file (type png)
+
+<use figures/php_server_start.png>
+Package pdftex.def Info: figures/php_server_start.png used on input line 57.
+(pdftex.def)             Requested size: 400.0pt x 251.3933pt.
+) [21 <./figures/terminal_window_bottom.png>] [22 <./figures/php_server_run.png
+> <./figures/php_server_start.png>]
 \openout2 = `chapter6.aux'.
 
- (./chapter6.tex
+
+(./chapter6.tex
 Chapter 5.
 [23
 
@@ -861,7 +908,7 @@ yed peo-ple.  on-line,
 
 
 ] Excluding 'comment' comment.
-<Figures/Login_Screen.png, id=768, 871.255pt x 609.27625pt>
+<Figures/Login_Screen.png, id=698, 871.255pt x 609.27625pt>
 File: Figures/Login_Screen.png Graphic file (type png)
 
 <use Figures/Login_Screen.png>
@@ -869,7 +916,7 @@ Package pdftex.def Info: Figures/Login_Screen.png used on input line 15.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
  [31 <./Figures/Login_Screen.png>]
 Excluding 'comment' comment.
-<Figures/Question_Entry.png, id=774, 871.255pt x 609.27625pt>
+<Figures/Question_Entry.png, id=704, 871.255pt x 609.27625pt>
 File: Figures/Question_Entry.png Graphic file (type png)
 
 <use Figures/Question_Entry.png>
@@ -877,7 +924,7 @@ Package pdftex.def Info: Figures/Question_Entry.png used on input line 78.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
  [32 <./Figures/Question_Entry.png>]
 Excluding 'comment' comment.
-<Figures/Generate_Question_Paper.png, id=780, 871.255pt x 609.27625pt>
+<Figures/Generate_Question_Paper.png, id=710, 871.255pt x 609.27625pt>
 File: Figures/Generate_Question_Paper.png Graphic file (type png)
 
 <use Figures/Generate_Question_Paper.png>
@@ -885,7 +932,7 @@ Package pdftex.def Info: Figures/Generate_Question_Paper.png used on input line
  96.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
  [33 <./Figures/Generate_Question_Paper.png>] Excluding 'comment' comment.
-<Figures/Show_Questions.png, id=787, 871.255pt x 609.27625pt>
+<Figures/Show_Questions.png, id=716, 871.255pt x 609.27625pt>
 File: Figures/Show_Questions.png Graphic file (type png)
 
 <use Figures/Show_Questions.png>
@@ -893,7 +940,7 @@ Package pdftex.def Info: Figures/Show_Questions.png used on input line 252.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
  [34 <./Figures/Show_Questions.png>]
 Excluding 'comment' comment.
-<Figures/Shows.png, id=793, 871.255pt x 609.27625pt>
+<Figures/Shows.png, id=722, 871.255pt x 609.27625pt>
 File: Figures/Shows.png Graphic file (type png)
  <use Figures/Shows.png>
 Package pdftex.def Info: Figures/Shows.png used on input line 417.
@@ -915,30 +962,33 @@ Package rerunfilecheck Warning: File `Thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: DE77E182F8D96D1BFFDD6B040EE1FE9F;5942
-(rerunfilecheck)             After:  16B5EBC6BA9F5726E372E9AC691F96C0;5943.
+(rerunfilecheck)             Before: B113092FAE60B0BE11A9182DF8319B5A;4715
+(rerunfilecheck)             After:  5E42868EBAECF266C42B607B909A01E0;4757.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 8072 strings out of 493014
- 115337 string characters out of 6133351
- 219036 words of memory out of 5000000
- 11203 multiletter control sequences out of 15000+600000
+ 8076 strings out of 493014
+ 115888 string characters out of 6133351
+ 219320 words of memory out of 5000000
+ 11213 multiletter control sequences out of 15000+600000
  25470 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,10n,43p,2665b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Thesis.pdf (49 pages, 772638 bytes).
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does no
+t exist, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2016/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Thesis.pdf (49 pages, 984473 bytes).
 PDF statistics:
- 857 PDF objects out of 1000 (max. 8388607)
- 768 compressed objects within 8 object streams
- 175 named destinations out of 1000 (max. 500000)
- 810 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 784 PDF objects out of 1000 (max. 8388607)
+ 684 compressed objects within 7 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 680 words of extra memory for PDF output out of 10000 (max. 10000000)
 
