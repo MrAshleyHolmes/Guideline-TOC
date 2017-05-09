@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.17)  8 MAY 2017 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.17)  9 MAY 2017 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -398,8 +398,16 @@ LaTeX Warning: Label `fig:agile' multiply defined.
 
 LaTeX Warning: Label `fig:agile' multiply defined.
 
-) (./chapter4.aux) (./chapter6.aux) (./chapter7.aux) (./chapter8.aux)
-(./appendix.aux))
+) (./chapter4.aux
+
+LaTeX Warning: Label `fig:Web Debug Toolbar and Profiler Extended' multiply def
+ined.
+
+
+LaTeX Warning: Label `fig:Web Debug Toolbar and Profiler Extended' multiply def
+ined.
+
+) (./chapter6.aux) (./chapter7.aux) (./chapter8.aux) (./appendix.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
@@ -653,7 +661,7 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 ) [2]
 Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment.
-<Figures/sdlc_agile_model.png, id=511, 616.3025pt x 445.665pt>
+<Figures/sdlc_agile_model.png, id=542, 616.3025pt x 445.665pt>
 File: Figures/sdlc_agile_model.png Graphic file (type png)
 
 <use Figures/sdlc_agile_model.png>
@@ -668,7 +676,7 @@ LaTeX Warning: Float too large for page by 48.65634pt on input line 283.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/gantt.png, id=526, 1284.8pt x 626.34pt>
+<Figures/gantt.png, id=557, 1284.8pt x 626.34pt>
 File: Figures/gantt.png Graphic file (type png)
  <use Figures/gantt.png>
 Package pdftex.def Info: Figures/gantt.png used on input line 286.
@@ -710,21 +718,21 @@ Overfull \hbox (5.33023pt too wide) in paragraph at lines 13--14
 Ques-tions and an-swers are sep-a-rated.
  []
 
-<Figures/function_module.png, id=541, 587.19376pt x 358.33875pt>
+<Figures/function_module.png, id=572, 587.19376pt x 358.33875pt>
 File: Figures/function_module.png Graphic file (type png)
 
 <use Figures/function_module.png>
 Package pdftex.def Info: Figures/function_module.png used on input line 16.
 (pdftex.def)             Requested size: 400.0pt x 244.10455pt.
 
-<Figures/road_map.png, id=544, 573.14125pt x 151.56625pt>
+<Figures/road_map.png, id=575, 573.14125pt x 151.56625pt>
 File: Figures/road_map.png Graphic file (type png)
 
 <use Figures/road_map.png>
 Package pdftex.def Info: Figures/road_map.png used on input line 21.
 (pdftex.def)             Requested size: 400.0pt x 105.78111pt.
 
-<Figures/Flow_chart.png, id=547, 619.31375pt x 299.1175pt>
+<Figures/Flow_chart.png, id=578, 619.31375pt x 299.1175pt>
 File: Figures/Flow_chart.png Graphic file (type png)
 
 <use Figures/Flow_chart.png>
@@ -765,7 +773,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 
 
 ] [13]
-<figures/incrementally-over-all-at-once.png, id=583, 582.175pt x 262.9825pt>
+<figures/incrementally-over-all-at-once.png, id=615, 582.175pt x 262.9825pt>
 File: figures/incrementally-over-all-at-once.png Graphic file (type png)
 
 <use figures/incrementally-over-all-at-once.png>
@@ -773,7 +781,7 @@ Package pdftex.def Info: figures/incrementally-over-all-at-once.png used on inp
 ut line 26.
 (pdftex.def)             Requested size: 400.0pt x 180.69167pt.
 
-<figures/burn-down-simple.png, id=586, 582.175pt x 259.97125pt>
+<figures/burn-down-simple.png, id=618, 582.175pt x 259.97125pt>
 File: figures/burn-down-simple.png Graphic file (type png)
 
 <use figures/burn-down-simple.png>
@@ -786,7 +794,7 @@ Overfull \hbox (6.33577pt too wide) in paragraph at lines 43--44
 s and cut scope (rec-om-mended).
  []
 
-<figures/update-the-plan.png, id=596, 539.01375pt x 263.98625pt>
+<figures/update-the-plan.png, id=627, 539.01375pt x 263.98625pt>
 File: figures/update-the-plan.png Graphic file (type png)
 
 <use figures/update-the-plan.png>
@@ -804,67 +812,170 @@ Overfull \hbox (2.12523pt too wide) in paragraph at lines 12--13
  to the com-mand line in-struc-tions
  []
 
-<figures/symfony_installation.png, id=613, 681.54625pt x 227.85126pt>
+<figures/symfony_documentation.png, id=644, 1369.115pt x 860.21375pt>
+File: figures/symfony_documentation.png Graphic file (type png)
+
+<use figures/symfony_documentation.png>
+Package pdftex.def Info: figures/symfony_documentation.png used on input line 1
+6.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+
+<figures/symfony_installation.png, id=645, 681.54625pt x 227.85126pt>
 File: figures/symfony_installation.png Graphic file (type png)
 
 <use figures/symfony_installation.png>
-Package pdftex.def Info: figures/symfony_installation.png used on input line 16
+Package pdftex.def Info: figures/symfony_installation.png used on input line 23
 .
 (pdftex.def)             Requested size: 400.0pt x 133.7253pt.
  [18
 
 
 
-]
-<figures/new_application.png, id=618, 671.50874pt x 451.6875pt>
+] [19 <./figures/symfony_documentation.png> <./figures/symfony_installation.png
+>]
+<figures/new_application.png, id=656, 671.50874pt x 451.6875pt>
 File: figures/new_application.png Graphic file (type png)
 
 <use figures/new_application.png>
-Package pdftex.def Info: figures/new_application.png used on input line 25.
+Package pdftex.def Info: figures/new_application.png used on input line 32.
 (pdftex.def)             Requested size: 400.0pt x 269.0572pt.
 
-<figures/terminal_window_top.png, id=621, 1367.1075pt x 859.21pt>
+<figures/terminal_window_top.png, id=659, 1367.1075pt x 859.21pt>
 File: figures/terminal_window_top.png Graphic file (type png)
 
 <use figures/terminal_window_top.png>
-Package pdftex.def Info: figures/terminal_window_top.png used on input line 34.
+Package pdftex.def Info: figures/terminal_window_top.png used on input line 41.
 
 (pdftex.def)             Requested size: 400.0pt x 251.3933pt.
 
-<figures/terminal_window_bottom.png, id=622, 1367.1075pt x 859.21pt>
+<figures/terminal_window_bottom.png, id=660, 1367.1075pt x 859.21pt>
 File: figures/terminal_window_bottom.png Graphic file (type png)
 
 <use figures/terminal_window_bottom.png>
 Package pdftex.def Info: figures/terminal_window_bottom.png used on input line 
-41.
+48.
 (pdftex.def)             Requested size: 400.0pt x 251.3933pt.
- [19 <./figures/symfony_installation.png>] [20 <./figures/new_application.png> 
-<./figures/terminal_window_top.png>]
-<figures/php_server_run.png, id=636, 1367.1075pt x 859.21pt>
+
+<figures/php_server_run.png, id=661, 1367.1075pt x 859.21pt>
 File: figures/php_server_run.png Graphic file (type png)
 
 <use figures/php_server_run.png>
-Package pdftex.def Info: figures/php_server_run.png used on input line 50.
+Package pdftex.def Info: figures/php_server_run.png used on input line 55.
 (pdftex.def)             Requested size: 400.0pt x 251.3933pt.
 
-<figures/php_server_start.png, id=637, 1367.1075pt x 859.21pt>
+<figures/php_server_start.png, id=662, 1367.1075pt x 859.21pt>
 File: figures/php_server_start.png Graphic file (type png)
 
 <use figures/php_server_start.png>
-Package pdftex.def Info: figures/php_server_start.png used on input line 57.
+Package pdftex.def Info: figures/php_server_start.png used on input line 62.
 (pdftex.def)             Requested size: 400.0pt x 251.3933pt.
-) [21 <./figures/terminal_window_bottom.png>] [22 <./figures/php_server_run.png
-> <./figures/php_server_start.png>]
+ [20 <./figures/new_application.png>]
+[21 <./figures/terminal_window_top.png> <./figures/terminal_window_bottom.png>]
+[22 <./figures/php_server_run.png> <./figures/php_server_start.png>]
+<figures/symfony_browser.png, id=682, 1369.115pt x 860.21375pt>
+File: figures/symfony_browser.png Graphic file (type png)
+
+<use figures/symfony_browser.png>
+Package pdftex.def Info: figures/symfony_browser.png used on input line 75.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+
+<figures/configuration_checker.png, id=683, 1369.115pt x 860.21375pt>
+File: figures/configuration_checker.png Graphic file (type png)
+
+<use figures/configuration_checker.png>
+Package pdftex.def Info: figures/configuration_checker.png used on input line 8
+2.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+
+<figures/webdebug_1.png, id=684, 1284.8pt x 803.0pt>
+File: figures/webdebug_1.png Graphic file (type png)
+
+<use figures/webdebug_1.png>
+Package pdftex.def Info: figures/webdebug_1.png used on input line 89.
+(pdftex.def)             Requested size: 400.0pt x 249.99342pt.
+
+<figures/webdebug_2.png, id=685, 1284.8pt x 803.0pt>
+File: figures/webdebug_2.png Graphic file (type png)
+
+<use figures/webdebug_2.png>
+Package pdftex.def Info: figures/webdebug_2.png used on input line 90.
+(pdftex.def)             Requested size: 400.0pt x 249.99342pt.
+
+<figures/webdebug_3.png, id=686, 1284.8pt x 803.0pt>
+File: figures/webdebug_3.png Graphic file (type png)
+
+<use figures/webdebug_3.png>
+Package pdftex.def Info: figures/webdebug_3.png used on input line 97.
+(pdftex.def)             Requested size: 400.0pt x 249.99342pt.
+
+<figures/webdebug_4.png, id=687, 1284.8pt x 803.0pt>
+File: figures/webdebug_4.png Graphic file (type png)
+
+<use figures/webdebug_4.png>
+Package pdftex.def Info: figures/webdebug_4.png used on input line 98.
+(pdftex.def)             Requested size: 400.0pt x 249.99342pt.
+
+<figures/webdebug_5.png, id=688, 1284.8pt x 803.0pt>
+File: figures/webdebug_5.png Graphic file (type png)
+
+<use figures/webdebug_5.png>
+Package pdftex.def Info: figures/webdebug_5.png used on input line 105.
+(pdftex.def)             Requested size: 400.0pt x 249.99342pt.
+
+<figures/webdebug_6.png, id=689, 1284.8pt x 803.0pt>
+File: figures/webdebug_6.png Graphic file (type png)
+
+<use figures/webdebug_6.png>
+Package pdftex.def Info: figures/webdebug_6.png used on input line 106.
+(pdftex.def)             Requested size: 400.0pt x 249.99342pt.
+ [23 <./figures/symfony_browser.png>]
+<figures/AppKernel.png, id=701, 850.17625pt x 121.45375pt>
+File: figures/AppKernel.png Graphic file (type png)
+
+<use figures/AppKernel.png>
+Package pdftex.def Info: figures/AppKernel.png used on input line 116.
+(pdftex.def)             Requested size: 400.0pt x 57.14256pt.
+
+<figures/routing_dev.png, id=702, 904.37875pt x 225.84375pt>
+File: figures/routing_dev.png Graphic file (type png)
+
+<use figures/routing_dev.png>
+Package pdftex.def Info: figures/routing_dev.png used on input line 117.
+(pdftex.def)             Requested size: 400.0pt x 99.88846pt.
+
+<figures/config_dev.png, id=703, 904.37875pt x 75.28125pt>
+File: figures/config_dev.png Graphic file (type png)
+
+<use figures/config_dev.png>
+Package pdftex.def Info: figures/config_dev.png used on input line 118.
+(pdftex.def)             Requested size: 400.0pt x 33.29614pt.
+
+<figures/default_controller.png, id=704, 1284.8pt x 435.6275pt>
+File: figures/default_controller.png Graphic file (type png)
+
+<use figures/default_controller.png>
+Package pdftex.def Info: figures/default_controller.png used on input line 129.
+
+(pdftex.def)             Requested size: 400.0pt x 135.62143pt.
+ [24 <./figures/configuration_checker.png>] [25 <./figures/webdebug_1.png> <./f
+igures/webdebug_2.png>] [26 <./figures/webdebug_3.png> <./figures/webdebug_4.pn
+g>] [27 <./figures/webdebug_5.png> <./figures/webdebug_6.png>]
+Overfull \hbox (3.8027pt too wide) in paragraph at lines 134--135
+[]\OT1/ptm/m/n/12 Most of the files live in src/AppBundle. Look-ing at the con-
+troller called De-fault Con-troller
+ []
+
+) [28 <./figures/AppKernel.png> <./figures/routing_dev.png> <./figures/config_d
+ev.png> <./figures/default_controller.png>]
 \openout2 = `chapter6.aux'.
 
-
-(./chapter6.tex
+ (./chapter6.tex
 Chapter 5.
-[23
+[29
 
 
 
-]) [24] [25]
+]) [30] [31]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
@@ -877,7 +988,7 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Excluding 'comment' comment. Excluding 'comment' comment.) [26
+Excluding 'comment' comment. Excluding 'comment' comment.) [32
 
 
 
@@ -887,7 +998,7 @@ Excluding 'comment' comment. Excluding 'comment' comment.) [26
  (./chapter8.tex
 Chapter 7.
 Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.) [27
+Excluding 'comment' comment. Excluding 'comment' comment.) [33
 
 
 
@@ -898,55 +1009,55 @@ Underfull \hbox (badness 5189) in paragraph at lines 40--42
 yed peo-ple.  on-line,
  []
 
-[28
+[34
 
 
-]) [29]
+]) [35]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [30
+ (./appendix.tex [36
 
 
 ] Excluding 'comment' comment.
-<Figures/Login_Screen.png, id=698, 871.255pt x 609.27625pt>
+<Figures/Login_Screen.png, id=786, 871.255pt x 609.27625pt>
 File: Figures/Login_Screen.png Graphic file (type png)
 
 <use Figures/Login_Screen.png>
 Package pdftex.def Info: Figures/Login_Screen.png used on input line 15.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [31 <./Figures/Login_Screen.png>]
+ [37 <./Figures/Login_Screen.png>]
 Excluding 'comment' comment.
-<Figures/Question_Entry.png, id=704, 871.255pt x 609.27625pt>
+<Figures/Question_Entry.png, id=792, 871.255pt x 609.27625pt>
 File: Figures/Question_Entry.png Graphic file (type png)
 
 <use Figures/Question_Entry.png>
 Package pdftex.def Info: Figures/Question_Entry.png used on input line 78.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [32 <./Figures/Question_Entry.png>]
+ [38 <./Figures/Question_Entry.png>]
 Excluding 'comment' comment.
-<Figures/Generate_Question_Paper.png, id=710, 871.255pt x 609.27625pt>
+<Figures/Generate_Question_Paper.png, id=798, 871.255pt x 609.27625pt>
 File: Figures/Generate_Question_Paper.png Graphic file (type png)
 
 <use Figures/Generate_Question_Paper.png>
 Package pdftex.def Info: Figures/Generate_Question_Paper.png used on input line
  96.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [33 <./Figures/Generate_Question_Paper.png>] Excluding 'comment' comment.
-<Figures/Show_Questions.png, id=716, 871.255pt x 609.27625pt>
+ [39 <./Figures/Generate_Question_Paper.png>] Excluding 'comment' comment.
+<Figures/Show_Questions.png, id=804, 871.255pt x 609.27625pt>
 File: Figures/Show_Questions.png Graphic file (type png)
 
 <use Figures/Show_Questions.png>
 Package pdftex.def Info: Figures/Show_Questions.png used on input line 252.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [34 <./Figures/Show_Questions.png>]
+ [40 <./Figures/Show_Questions.png>]
 Excluding 'comment' comment.
-<Figures/Shows.png, id=722, 871.255pt x 609.27625pt>
+<Figures/Shows.png, id=810, 871.255pt x 609.27625pt>
 File: Figures/Shows.png Graphic file (type png)
  <use Figures/Shows.png>
 Package pdftex.def Info: Figures/Shows.png used on input line 417.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
 
-Excluding 'comment' comment. [35 <./Figures/Shows.png>])
+Excluding 'comment' comment. [41 <./Figures/Shows.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./Thesis.aux
@@ -955,40 +1066,31 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 (./chapter7.aux) (./chapter8.aux) (./appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 34E21904B58222DE798F11DFEB0D4A27;4876.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: B113092FAE60B0BE11A9182DF8319B5A;4715
-(rerunfilecheck)             After:  5E42868EBAECF266C42B607B909A01E0;4757.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 8076 strings out of 493014
- 115888 string characters out of 6133351
- 219320 words of memory out of 5000000
- 11213 multiletter control sequences out of 15000+600000
+ 8165 strings out of 493014
+ 117998 string characters out of 6133351
+ 219633 words of memory out of 5000000
+ 11274 multiletter control sequences out of 15000+600000
  25470 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,10n,43p,2665b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does no
-t exist, replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Thesis.pdf (49 pages, 984473 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Thesis.pdf (55 pages, 1615057 bytes).
 PDF statistics:
- 784 PDF objects out of 1000 (max. 8388607)
- 684 compressed objects within 7 object streams
- 163 named destinations out of 1000 (max. 500000)
- 680 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 875 PDF objects out of 1000 (max. 8388607)
+ 742 compressed objects within 8 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 769 words of extra memory for PDF output out of 10000 (max. 10000000)
 
