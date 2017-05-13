@@ -124,24 +124,300 @@ Now that the configuration phase has been completed one now navigates to the bro
 
 \subsection{PhpStorm IDE for PHP}
 
+Most of the files live in src/AppBundle. Looking at the controller called DefaultController in the below figure \ref{fig:DefaultController}. This controller class defines what is seen in figure \ref{fig:Symfony Browser}. It renders the Symfony Welcome Page. Take note of the @Route("/", name="homepage") annotation on line 12. It matches the route in figure \ref{fig:Web Debug Toolbar and Profiler Extended}. The next process was to remove the extraneous code which was not needed in the Twig Template and the DefaultController. In the template itself, it was using some variables which was passed in line 18 of figure \ref{fig:DefaultController} in the\newline DefaultController.php class. With this removed, Bootstrap was enabled as a CDN and added to the templates to provide consistency across all pages. In order to use Bootstrap, it needed to be downloaded from the Bootstrap website. From the Getting started section there are examples which can be chosen as a starting template to use as a foundation for all templates. This was added to the base.html.twig and then modified to make it more specific to the project. Twig uses inheritance and all templates extend from the base.html.twig. In addition to this a small amount of custom CSS was added to achieve the result in figure \ref{fig:Home Page}
+
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=400pt]{figures/default_controller.png} % requires the graphicx package
-   \caption{Default Controller}
-   \label{fig:Default Controller}
+   \caption{DefaultController}
+   \label{fig:DefaultController}
 \end{figure}
 
-Most of the files live in src/AppBundle. Looking at the controller called Default Controller in the below figure \ref{fig:Default Controller}. This controller class defines what is seen in figure \ref{fig:Symfony Browser}. It renders the Symfony Welcome Page. Take note of the @Route("/", name="homepage") annotation on line 12. It matches the route in figure \ref{fig:Web Debug Toolbar and Profiler Extended}.
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/twig_index.png} % requires the graphicx package
+   \caption{Twig Template in IDE}
+   \label{fig:Twig Template in IDE}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/index_html.png} % requires the graphicx package
+   \includegraphics[width=400pt]{figures/base_html.png}
+   \caption{Adding Bootstrap}
+   \label{fig:Adding Bootstrap}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/bootstrap_html.png} % requires the graphicx package
+   \caption{Adding Bootstrap}
+   \label{fig:Adding Bootstrap}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/homepage.png} % requires the graphicx package
+   \caption{Home Page}
+   \label{fig:Home Page}
+\end{figure}
+
+\section{Database}
+
+\subsection{Creation of User Entity and CRUD}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/entity_crud.png} % requires the graphicx package
+   \caption{Parameters Yaml}
+   \label{fig:Parameters Yaml}
+\end{figure}
+
+This section covers Object Relational Mapping or ORM. With using an ORM, the concept of working with a database becomes easier as it is an easy switch from one to another such as Mongo to SQL or Postgres. Not having to worry about the actual database. Symfony takes care of the abstraction. In addition the ORM generates the CRUD off the entity which is made and makes everything work. The first thing that needs to be done is make a change to the parameters.yml which can be seen in figure \ref{fig:Parameters Yaml}. The change was to the database name from symfony in line 5 to a name of choice. In this case the name project was used. The database port changed to 8889 and the database password changed to root to correspond with the database login details. With having done that an external MySQL server was needed to make a communication to the database itself. The port number is the port on the local MySQL server. In this case MAMP was used in figure \ref{fig:Mamp Ports}. 
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/mamp_ports.png} % requires the graphicx package
+   \caption{Mamp Ports}
+   \label{fig:Mamp Ports}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/entities.png} % requires the graphicx package
+   \caption{Entities}
+   \label{fig:Entities}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/tables_user_entity.png} % requires the graphicx package
+   \caption{User Table}
+   \label{fig:User Table}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/templates.png} % requires the graphicx package
+   \caption{Twig Templates}
+   \label{fig:Twig Templates}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/form_type.png} % requires the graphicx package
+   \caption{Form Type}
+   \label{fig:Form Type}
+\end{figure}
+
+Issuing a command in the terminal. php bin/console doctrine:database:create will create a database with the name project which was added to the parameters.yml file. Creating the entities is done in the same manor. php bin/console doctrine:generate:entity brings up a wizard which asks where to put the entity. Giving the command AppBundle:User. The entities were all placed in a directory called Entity which resides in src/AppBundle. All the work was was done is in AppBundle. The fields in the database are then added along with a repository class which will be discussed later. There is now a username, firstname, lastname, email and password with type String and field length of 80 characters. An example of this is in figure \ref{fig:User Table}. Symfony created two different files. The first is the user entity which is the model which is used to base database manipulation, object validation or form validation. The second thing which was done was to create the schema which is done in the terminal with the command of php bin/console doctrine:schema:create. This creates a table structure ready for use off of the user object. To create the CRUD in the terminal it was php bin/console generate:doctrine:crud. The wizard asks where the entity would be found and based off. As discussed it is in AppBundle:User and giving write actions which allows for the update and delete. All the templates were created and added to the Resources directory which are used to create the users in figure \ref{fig:Twig Templates} also a class called UserType.php which is a FormType and is what all the forms are based off in figure \ref{fig:Form Type}. With this section completed a bit of functional testing was done to make sure that users could be added to the database, edited and removed.
+
+\section{Twig}
+
+\subsection{Templates are fine tuned}
+
+The templates which are created by Symfony was raw html with no styling. Each form had a basic layout. They were ugly. This is why form theming which is discussed later in the chapter and styling needed to be added to make them look as they do in the below figures. Styling included:
+
+\begin{itemize}
+  \item Addition of placeholders.
+    \item Adding a striped table.
+      \item Button styling.
+        \item Removal of the unordered lists.
+          \item Adding column spanning.
+            \item Changing links to be buttons.
+              \item The bootstrap classes were added.
+                \item Button styling.     
+\end{itemize}
+
+Some of the data was adjusted which would have been displayed such as the id and passwords which were removed as they should not be visible from the client side.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/index_html_twig.png} % requires the graphicx package
+   \caption{index.html.twig}
+   \label{fig:index.html.twig}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/new_html_twig.png} % requires the graphicx package
+   \caption{new.html.twig}
+   \label{fig:new.html.twig}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/show_html_twig.png} % requires the graphicx package
+   \caption{show.html.twig}
+   \label{fig:show.html.twig}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/edit_html_twig.png} % requires the graphicx package
+   \caption{edit.html.twig}
+   \label{fig:edit.html.twig}
+\end{figure}
+
+\section{Forms}
+
+\subsection{Understanding FormTypes}
+
+The FormType works hand in hand with the user object which is created and thus is called the UserType which can be found in src/AppBundle/Form/UserType.php. This is what Symfony created when going through the process of creating CRUD. The FormType is used to take control of the input tags and labels. As mentioned in the previous Twig section with regards to adding the placeholders. This is actually done in the UserType.php class including the CSS classes. When the user clicks on the Create new user button. Symfony extracts information from that FormType and it builds the form. In figure \ref{fig:UserType.php} one can see that the add method takes up to three arguments. If only one argument is added, Symfony will make the best guess about what is being done. If the second argument is passed in, the second argument is the type of input that is being provide. It could take an Entity or several other arguments. However it does help Symfony make a better decision about what is being done. The third argument is where one can explicitly say what the options are such as input tags a class as mentioned before. When an array of options are provided Symfony stops guessing what is being done and it takes explicit direction. This is why an array of options are given to explicitly say everything. From line 20 to 25 there is an array of options such as:
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/userType.png} % requires the graphicx package
+   \caption{UserType.php}
+   \label{fig:UserType.php}
+\end{figure}
+
+\begin{itemize}
+  \item The input label - is expressly put in with the form rendering where in the twig template figure \ref{fig:Form Label} line 12, 17, 22, 27, and 32 is the form label.
+    \item Attribute required is true forces the user to complete this section of the form.
+      \item The array of other attributes are which go inside the input tag.
+        \item Placeholder and class are added here.
+          \item Class is a Bootstrap class of form control.
+\end{itemize}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/form_label.png} % requires the graphicx package
+   \caption{Form Label}
+   \label{fig:Form Label}
+\end{figure}
+
+\section{Validation}
+
+\subsection{Validation of the Forms}
+
+At this stage without populating the form and by using the create button to create a new user in the form there was html5 validation. A notification message would pop up with an instruction such as, "Please fill out this field." In order to validate the form or objects on the server side. The form validation needs to be turned off. Figure \ref{fig:Form Validation} shows how this was done.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/form_validation.png} % requires the graphicx package
+   \caption{Form Validation}
+   \label{fig:Form Validation}
+\end{figure}
+
+Line 10 is being passed an instance of the FormType in the form start method. Adding arguments to that such as {attr: {novalidate:"novalidate"}}. With this attribute added there was no server validation. This was performed on the object which is the entity User.php class by adding a use statement such as in line 7 of figure \ref{fig:Entity Validation}. 
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/entity_validation.png} % requires the graphicx package
+   \caption{Entity Validation}
+   \label{fig:Entity Validation}
+\end{figure}
 
 
+A use statement in Symfony is a class. With the use statement added it was possible to assert constraints on top of the properties for each of the form fields with reference to figure \ref{fig:Constraints}.
 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/assert_constraints.png} % requires the graphicx package
+   \caption{Constraints}
+   \label{fig:Constraints}
+\end{figure}
 
+Functional testing was done at this point in order to make sure everything worked. Another feature which was added was having a unique username and a unique email. This was achieved with yet another use statement which can be found in line 5 of figure \ref{fig:Entity Validation}. In the class declaration there are two arguments passed for each property in line 18 and line 19. The property name that needs to be checked against uniqueness. And a message was also passed in, incase the test failed. The same was created for username. It is possible to set both the username and the email as double arguments for one unique entity call however, this will allow the uniqueness of the email to get through as long as the uniqueness of the username is not there. This is why they were passed in separately. Functional testing was performed in order to confirm the changes which were made worked appropriately.
 
+\section{Theming}
 
+\subsection{Form Theming}
 
+Form theming is a concept which made all the forms look appealing such as the error messages and buttons. Things to remember are, never to adjust the core of Symfony. Instead it is overridden by doing things like telling Symfony where things are that need to be overridden. To proceed with this the error code can be found in the core of Symfony. Figure \ref{fig:Form Errors} shows the error message which was overridden.
 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/form_errors.png} % requires the graphicx package
+   \caption{Form Errors}
+   \label{fig:Form Errors}
+\end{figure}
 
+It was overridden in the Twig template figure \ref{fig:Form Theming} with a Bootstrap dismissible alert placed inside the Symfony error message. The files which use this Twig template are:
 
+\begin{itemize}
+  \item edit.html.twig
+    \item new.html.twig
+      \item password.html.twig
+        \item register.html.twig
+\end{itemize}
 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/formthemeoverwrite.png} % requires the graphicx package
+   \caption{Form Theming}
+   \label{fig:Form Theming}
+\end{figure}
 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/usercontroller_button.png} % requires the graphicx package
+   \caption{Button Theming}
+   \label{fig:Button Theming}
+\end{figure}
 
+The buttons were given their own theming and implemented as follow in figure \ref{fig:Button Theming}.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/form_theming.png} % requires the graphicx package
+   \caption{Form Theming Result}
+   \label{fig:Form Theming Result}
+\end{figure}
+
+\section{Fixtures}
+
+\subsection{Fixtures with Faker}
+
+Fixtures are used to add data into a database in a controlled manner for the purpose of testing or for the initial data which is required for the application to run. The four actions which were necessary for this was as follows:
+
+\begin{itemize}
+  \item Use Composer to download the appropriate dependencies.
+    \item Adjust the AppKernel.php to use the dependencies.
+      \item Write the fixture.
+        \item Use the fixture in the console.
+\end{itemize}
+
+Every good application needs some way to test the data which is being worked on. This is why fixtures is a good place to start. Before this can be done Composer needs to be installed on the computer and it needs to be installed globally. Instructions for this can be found on the Symfony website. Composer is a dependency manager and it is used to require a bundle from Packagist. Packagist is the main Composer repository. It links packages with Composer and shows Composer where to get the code from. With that completed a terminal command may be issued: composer require --dev doctrine/doctrine-fixtures-bundle with reference to figure \ref{fig:Fixtures}.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/fixtures.png} % requires the graphicx package
+   \caption{Fixtures}
+   \label{fig:Fixtures}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/bundles.png} % requires the graphicx package
+   \caption{Bundles}
+   \label{fig:Bundles}
+\end{figure}
+
+The following line of code figure \ref{fig:Bundles} was added to AppKernel in the bundles array of which activates the bundle. It was now possible to build a load in fixtures class. In AppBundle a directory is created with the name	 DataFixtures and a class called PopulateUserTable.php. In figure \ref{fig:Faker}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/faker.png} % requires the graphicx package
+   \caption{Faker}
+   \label{fig:Faker}
+\end{figure}
+
+on line 9 there is a namespace for the file which is also a bundle much like a directory.  It becomes a bundle when a bundle class is added to it. Adding a namespace to a class is organising files from one directory, into a sub directories. The PopulateUserTable class lives in a directory called ORM which lives in a directory called DataFixtures which lives in AppBundle. Which is essentially a folder hierarchy. Each one will be unique as each class name is different. Use statements are included from line 11 to line 16. The one on line 15 has a method which is required as it implements the FixtureInterface. Line 13 is the ObjectManager which enables the manipulation of the EntityManager in order to persist the object to the database which is the use statement in line 12. Line 25 has a public function called load and is what is required by the FixtureInterface and will bring in the object to the function which is also called dependancy injection. Line 11 is the Faker use statement. This is a PHP Library which generates fake data and can be seen in the admin index page. Line 42 shows how the ObjectManager persists it to the User object and line 69 in figure \ref{fig:Object Manager Flush} which writes the data to the database.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/objectmanager_flush.png} % requires the graphicx package
+   \caption{Object Manager Flush}
+   \label{fig:Object Manager Flush}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/fixtures_load_purge.png} % requires the graphicx package
+   \caption{Purge Database}
+   \label{fig:Purge Database}
+\end{figure}
+
+The line in the console window is what is used to purge what is currently in the database and add new data to it. Each user is persisted separately. 

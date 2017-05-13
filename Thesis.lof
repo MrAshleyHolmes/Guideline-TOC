@@ -24,12 +24,40 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Web Debug Toolbar and Profiler Extended}}{26}{figure.4.11}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Web Debug Toolbar and Profiler Extended}}{27}{figure.4.12}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Web Debug Toolbar and Profiler}}{28}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Default Controller}}{28}{figure.4.14}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces DefaultController}}{29}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Twig Template in IDE}}{29}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Adding Bootstrap}}{30}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Adding Bootstrap}}{31}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Home Page}}{31}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Parameters Yaml}}{32}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Mamp Ports}}{33}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Entities}}{34}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces User Table}}{34}{figure.4.22}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Twig Templates}}{35}{figure.4.23}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Form Type}}{35}{figure.4.24}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces index.html.twig}}{37}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces new.html.twig}}{38}{figure.4.26}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces show.html.twig}}{38}{figure.4.27}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces edit.html.twig}}{39}{figure.4.28}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces UserType.php}}{40}{figure.4.29}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Form Label}}{41}{figure.4.30}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Form Validation}}{42}{figure.4.31}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Entity Validation}}{42}{figure.4.32}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Constraints}}{43}{figure.4.33}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Form Errors}}{44}{figure.4.34}
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Form Theming}}{45}{figure.4.35}
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Button Theming}}{46}{figure.4.36}
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Form Theming Result}}{46}{figure.4.37}
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Fixtures}}{47}{figure.4.38}
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Bundles}}{48}{figure.4.39}
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Faker}}{48}{figure.4.40}
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Object Manager Flush}}{49}{figure.4.41}
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Purge Database}}{50}{figure.4.42}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Graphical illustration of the Login Screen}}{37}{figure.0.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Graphical illustration of the Question Entry}}{38}{figure.0.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Graphical illustration of the Generate a Question Paper}}{39}{figure.0.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Graphical illustration of the Menu List to view the Questions}}{40}{figure.0.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Graphical illustration of the Show list}}{41}{figure.0.5}
+\contentsline {figure}{\numberline {1}{\ignorespaces Graphical illustration of the Login Screen}}{59}{figure.0.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Graphical illustration of the Question Entry}}{60}{figure.0.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Graphical illustration of the Generate a Question Paper}}{61}{figure.0.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Graphical illustration of the Menu List to view the Questions}}{62}{figure.0.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Graphical illustration of the Show list}}{63}{figure.0.5}
