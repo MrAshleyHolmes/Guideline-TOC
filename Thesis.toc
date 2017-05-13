@@ -52,37 +52,41 @@
 \contentsline {subsection}{\numberline {4.9.1}Form Theming}{44}{subsection.4.9.1}
 \contentsline {section}{\numberline {4.10}Fixtures}{45}{section.4.10}
 \contentsline {subsection}{\numberline {4.10.1}Fixtures with Faker}{45}{subsection.4.10.1}
-\contentsline {chapter}{\numberline {5}Implementation of the System}{51}{chapter.5}
-\contentsline {section}{\numberline {5.1}Implementation Principles}{51}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Object-Oriented Approach}{51}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Design Patterns}{51}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Choice of Language}{51}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Stages of Admin Implementation}{51}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Login}{51}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Administration}{52}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Subsection header 3}{52}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Stages of User Implementation}{52}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Subsection header 1}{52}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Subsection header 2}{52}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Subsection header 3}{52}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Design}{52}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Subsection header 1}{52}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Subsection header 2}{52}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Subsection header 3}{53}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}Testing and Evaluation}{54}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{54}{section.6.1}
-\contentsline {section}{\numberline {6.2}Tests Conducted}{54}{section.6.2}
-\contentsline {section}{\numberline {6.3}Algorithms}{54}{section.6.3}
-\contentsline {section}{\numberline {6.4}Summary}{54}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusion and Future work}{55}{chapter.7}
-\contentsline {section}{\numberline {7.1}Contributions}{55}{section.7.1}
-\contentsline {section}{\numberline {7.2}Limitations}{55}{section.7.2}
-\contentsline {section}{\numberline {7.3}Future Work}{55}{section.7.3}
-\contentsline {section}{\numberline {7.4}Data Collection}{55}{section.7.4}
-\contentsline {chapter}{Bibliography}{56}{section.7.4}
-\contentsline {chapter}{Appendices}{58}{chapter*.8}
-\contentsline {section}{\numberline {A}Web Application Login Screen}{59}{section.0.1}
-\contentsline {section}{\numberline {B}Web Application Question Entry}{60}{section.0.2}
-\contentsline {section}{\numberline {C}Generate a Question}{61}{section.0.3}
-\contentsline {section}{\numberline {D}Show questions}{62}{section.0.4}
-\contentsline {section}{\numberline {E}Show}{63}{section.0.5}
+\contentsline {section}{\numberline {4.11}Passwords}{50}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Password Fixtures}{50}{subsection.4.11.1}
+\contentsline {section}{\numberline {4.12}Passwords}{54}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Password Services}{54}{subsection.4.12.1}
+\contentsline {chapter}{\numberline {5}Implementation of the System}{56}{chapter.5}
+\contentsline {section}{\numberline {5.1}Implementation Principles}{56}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Object-Oriented Approach}{56}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Design Patterns}{56}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Choice of Language}{56}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Stages of Admin Implementation}{56}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Login}{56}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Administration}{57}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Subsection header 3}{57}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Stages of User Implementation}{57}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Subsection header 1}{57}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Subsection header 2}{57}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Subsection header 3}{57}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Design}{57}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Subsection header 1}{57}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Subsection header 2}{57}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Subsection header 3}{58}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}Testing and Evaluation}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{59}{section.6.1}
+\contentsline {section}{\numberline {6.2}Tests Conducted}{59}{section.6.2}
+\contentsline {section}{\numberline {6.3}Algorithms}{59}{section.6.3}
+\contentsline {section}{\numberline {6.4}Summary}{59}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusion and Future work}{60}{chapter.7}
+\contentsline {section}{\numberline {7.1}Contributions}{60}{section.7.1}
+\contentsline {section}{\numberline {7.2}Limitations}{60}{section.7.2}
+\contentsline {section}{\numberline {7.3}Future Work}{60}{section.7.3}
+\contentsline {section}{\numberline {7.4}Data Collection}{60}{section.7.4}
+\contentsline {chapter}{Bibliography}{61}{section.7.4}
+\contentsline {chapter}{Appendices}{63}{chapter*.8}
+\contentsline {section}{\numberline {A}Web Application Login Screen}{64}{section.0.1}
+\contentsline {section}{\numberline {B}Web Application Question Entry}{65}{section.0.2}
+\contentsline {section}{\numberline {C}Generate a Question}{66}{section.0.3}
+\contentsline {section}{\numberline {D}Show questions}{67}{section.0.4}
+\contentsline {section}{\numberline {E}Show}{68}{section.0.5}

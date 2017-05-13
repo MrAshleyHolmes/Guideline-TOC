@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.17)  13 MAY 2017 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.17)  13 MAY 2017 21:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,7 +664,7 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 ) [2]
 Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment.
-<Figures/sdlc_agile_model.png, id=665, 616.3025pt x 445.665pt>
+<Figures/sdlc_agile_model.png, id=697, 616.3025pt x 445.665pt>
 File: Figures/sdlc_agile_model.png Graphic file (type png)
 
 <use Figures/sdlc_agile_model.png>
@@ -679,7 +679,7 @@ LaTeX Warning: Float too large for page by 48.65634pt on input line 283.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/gantt.png, id=681, 1284.8pt x 626.34pt>
+<Figures/gantt.png, id=713, 1284.8pt x 626.34pt>
 File: Figures/gantt.png Graphic file (type png)
  <use Figures/gantt.png>
 Package pdftex.def Info: Figures/gantt.png used on input line 286.
@@ -721,21 +721,21 @@ Overfull \hbox (5.33023pt too wide) in paragraph at lines 13--14
 Ques-tions and an-swers are sep-a-rated.
  []
 
-<Figures/function_module.png, id=695, 587.19376pt x 358.33875pt>
+<Figures/function_module.png, id=727, 587.19376pt x 358.33875pt>
 File: Figures/function_module.png Graphic file (type png)
 
 <use Figures/function_module.png>
 Package pdftex.def Info: Figures/function_module.png used on input line 16.
 (pdftex.def)             Requested size: 400.0pt x 244.10455pt.
 
-<Figures/road_map.png, id=698, 573.14125pt x 151.56625pt>
+<Figures/road_map.png, id=730, 573.14125pt x 151.56625pt>
 File: Figures/road_map.png Graphic file (type png)
 
 <use Figures/road_map.png>
 Package pdftex.def Info: Figures/road_map.png used on input line 21.
 (pdftex.def)             Requested size: 400.0pt x 105.78111pt.
 
-<Figures/Flow_chart.png, id=701, 619.31375pt x 299.1175pt>
+<Figures/Flow_chart.png, id=733, 619.31375pt x 299.1175pt>
 File: Figures/Flow_chart.png Graphic file (type png)
 
 <use Figures/Flow_chart.png>
@@ -776,7 +776,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 
 
 ] [13]
-<figures/incrementally-over-all-at-once.png, id=737, 582.175pt x 262.9825pt>
+<figures/incrementally-over-all-at-once.png, id=769, 582.175pt x 262.9825pt>
 File: figures/incrementally-over-all-at-once.png Graphic file (type png)
 
 <use figures/incrementally-over-all-at-once.png>
@@ -784,7 +784,7 @@ Package pdftex.def Info: figures/incrementally-over-all-at-once.png used on inp
 ut line 26.
 (pdftex.def)             Requested size: 400.0pt x 180.69167pt.
 
-<figures/burn-down-simple.png, id=740, 582.175pt x 259.97125pt>
+<figures/burn-down-simple.png, id=772, 582.175pt x 259.97125pt>
 File: figures/burn-down-simple.png Graphic file (type png)
 
 <use figures/burn-down-simple.png>
@@ -797,7 +797,7 @@ Overfull \hbox (6.33577pt too wide) in paragraph at lines 43--44
 s and cut scope (rec-om-mended).
  []
 
-<figures/update-the-plan.png, id=749, 539.01375pt x 263.98625pt>
+<figures/update-the-plan.png, id=782, 539.01375pt x 263.98625pt>
 File: figures/update-the-plan.png Graphic file (type png)
 
 <use figures/update-the-plan.png>
@@ -815,7 +815,7 @@ Overfull \hbox (2.12523pt too wide) in paragraph at lines 12--13
  to the com-mand line in-struc-tions
  []
 
-<figures/symfony_documentation.png, id=767, 1369.115pt x 860.21375pt>
+<figures/symfony_documentation.png, id=799, 1369.115pt x 860.21375pt>
 File: figures/symfony_documentation.png Graphic file (type png)
 
 <use figures/symfony_documentation.png>
@@ -823,7 +823,7 @@ Package pdftex.def Info: figures/symfony_documentation.png used on input line 1
 6.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/symfony_installation.png, id=768, 681.54625pt x 227.85126pt>
+<figures/symfony_installation.png, id=800, 681.54625pt x 227.85126pt>
 File: figures/symfony_installation.png Graphic file (type png)
 
 <use figures/symfony_installation.png>
@@ -836,14 +836,14 @@ Package pdftex.def Info: figures/symfony_installation.png used on input line 23
 
 ] [19 <./figures/symfony_documentation.png> <./figures/symfony_installation.png
 >]
-<figures/new_application.png, id=779, 671.50874pt x 451.6875pt>
+<figures/new_application.png, id=811, 671.50874pt x 451.6875pt>
 File: figures/new_application.png Graphic file (type png)
 
 <use figures/new_application.png>
 Package pdftex.def Info: figures/new_application.png used on input line 32.
 (pdftex.def)             Requested size: 400.0pt x 269.0572pt.
 
-<figures/terminal_window_top.png, id=782, 1367.1075pt x 859.21pt>
+<figures/terminal_window_top.png, id=814, 1367.1075pt x 859.21pt>
 File: figures/terminal_window_top.png Graphic file (type png)
 
 <use figures/terminal_window_top.png>
@@ -851,7 +851,7 @@ Package pdftex.def Info: figures/terminal_window_top.png used on input line 41.
 
 (pdftex.def)             Requested size: 400.0pt x 251.3933pt.
 
-<figures/terminal_window_bottom.png, id=783, 1367.1075pt x 859.21pt>
+<figures/terminal_window_bottom.png, id=815, 1367.1075pt x 859.21pt>
 File: figures/terminal_window_bottom.png Graphic file (type png)
 
 <use figures/terminal_window_bottom.png>
@@ -859,14 +859,14 @@ Package pdftex.def Info: figures/terminal_window_bottom.png used on input line
 48.
 (pdftex.def)             Requested size: 400.0pt x 251.3933pt.
 
-<figures/php_server_run.png, id=784, 1367.1075pt x 859.21pt>
+<figures/php_server_run.png, id=816, 1367.1075pt x 859.21pt>
 File: figures/php_server_run.png Graphic file (type png)
 
 <use figures/php_server_run.png>
 Package pdftex.def Info: figures/php_server_run.png used on input line 55.
 (pdftex.def)             Requested size: 400.0pt x 251.3933pt.
 
-<figures/php_server_start.png, id=785, 1367.1075pt x 859.21pt>
+<figures/php_server_start.png, id=817, 1367.1075pt x 859.21pt>
 File: figures/php_server_start.png Graphic file (type png)
 
 <use figures/php_server_start.png>
@@ -875,14 +875,14 @@ Package pdftex.def Info: figures/php_server_start.png used on input line 62.
  [20 <./figures/new_application.png>]
 [21 <./figures/terminal_window_top.png> <./figures/terminal_window_bottom.png>]
 [22 <./figures/php_server_run.png> <./figures/php_server_start.png>]
-<figures/symfony_browser.png, id=806, 1369.115pt x 860.21375pt>
+<figures/symfony_browser.png, id=838, 1369.115pt x 860.21375pt>
 File: figures/symfony_browser.png Graphic file (type png)
 
 <use figures/symfony_browser.png>
 Package pdftex.def Info: figures/symfony_browser.png used on input line 75.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/configuration_checker.png, id=807, 1369.115pt x 860.21375pt>
+<figures/configuration_checker.png, id=839, 1369.115pt x 860.21375pt>
 File: figures/configuration_checker.png Graphic file (type png)
 
 <use figures/configuration_checker.png>
@@ -890,63 +890,63 @@ Package pdftex.def Info: figures/configuration_checker.png used on input line 8
 2.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/webdebug_1.png, id=808, 1397.22pt x 888.31876pt>
+<figures/webdebug_1.png, id=840, 1397.22pt x 888.31876pt>
 File: figures/webdebug_1.png Graphic file (type png)
 
 <use figures/webdebug_1.png>
 Package pdftex.def Info: figures/webdebug_1.png used on input line 89.
 (pdftex.def)             Requested size: 400.0pt x 254.31206pt.
 
-<figures/webdebug_2.png, id=809, 1397.22pt x 888.31876pt>
+<figures/webdebug_2.png, id=841, 1397.22pt x 888.31876pt>
 File: figures/webdebug_2.png Graphic file (type png)
 
 <use figures/webdebug_2.png>
 Package pdftex.def Info: figures/webdebug_2.png used on input line 90.
 (pdftex.def)             Requested size: 400.0pt x 254.31206pt.
 
-<figures/webdebug_3.png, id=810, 1397.22pt x 888.31876pt>
+<figures/webdebug_3.png, id=842, 1397.22pt x 888.31876pt>
 File: figures/webdebug_3.png Graphic file (type png)
 
 <use figures/webdebug_3.png>
 Package pdftex.def Info: figures/webdebug_3.png used on input line 97.
 (pdftex.def)             Requested size: 400.0pt x 254.31206pt.
 
-<figures/webdebug_4.png, id=811, 1397.22pt x 888.31876pt>
+<figures/webdebug_4.png, id=843, 1397.22pt x 888.31876pt>
 File: figures/webdebug_4.png Graphic file (type png)
 
 <use figures/webdebug_4.png>
 Package pdftex.def Info: figures/webdebug_4.png used on input line 98.
 (pdftex.def)             Requested size: 400.0pt x 254.31206pt.
 
-<figures/webdebug_5.png, id=812, 1397.22pt x 888.31876pt>
+<figures/webdebug_5.png, id=844, 1397.22pt x 888.31876pt>
 File: figures/webdebug_5.png Graphic file (type png)
 
 <use figures/webdebug_5.png>
 Package pdftex.def Info: figures/webdebug_5.png used on input line 105.
 (pdftex.def)             Requested size: 400.0pt x 254.31206pt.
 
-<figures/webdebug_6.png, id=813, 1369.115pt x 860.21375pt>
+<figures/webdebug_6.png, id=845, 1369.115pt x 860.21375pt>
 File: figures/webdebug_6.png Graphic file (type png)
 
 <use figures/webdebug_6.png>
 Package pdftex.def Info: figures/webdebug_6.png used on input line 106.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
  [23 <./figures/symfony_browser.png>]
-<figures/AppKernel.png, id=824, 850.17625pt x 121.45375pt>
+<figures/AppKernel.png, id=856, 850.17625pt x 121.45375pt>
 File: figures/AppKernel.png Graphic file (type png)
 
 <use figures/AppKernel.png>
 Package pdftex.def Info: figures/AppKernel.png used on input line 116.
 (pdftex.def)             Requested size: 400.0pt x 57.14256pt.
 
-<figures/routing_dev.png, id=825, 904.37875pt x 225.84375pt>
+<figures/routing_dev.png, id=857, 904.37875pt x 225.84375pt>
 File: figures/routing_dev.png Graphic file (type png)
 
 <use figures/routing_dev.png>
 Package pdftex.def Info: figures/routing_dev.png used on input line 117.
 (pdftex.def)             Requested size: 400.0pt x 99.88846pt.
 
-<figures/config_dev.png, id=826, 904.37875pt x 75.28125pt>
+<figures/config_dev.png, id=858, 904.37875pt x 75.28125pt>
 File: figures/config_dev.png Graphic file (type png)
 
 <use figures/config_dev.png>
@@ -956,7 +956,7 @@ Package pdftex.def Info: figures/config_dev.png used on input line 118.
 [25 <./figures/webdebug_1.png> <./figures/webdebug_2.png>] [26 <./figures/webde
 bug_3.png> <./figures/webdebug_4.png>] [27 <./figures/webdebug_5.png> <./figure
 s/webdebug_6.png>]
-<figures/default_controller.png, id=856, 1369.115pt x 860.21375pt>
+<figures/default_controller.png, id=888, 1369.115pt x 860.21375pt>
 File: figures/default_controller.png Graphic file (type png)
 
 <use figures/default_controller.png>
@@ -964,42 +964,42 @@ Package pdftex.def Info: figures/default_controller.png used on input line 131.
 
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/twig_index.png, id=857, 1369.115pt x 860.21375pt>
+<figures/twig_index.png, id=889, 1369.115pt x 860.21375pt>
 File: figures/twig_index.png Graphic file (type png)
 
 <use figures/twig_index.png>
 Package pdftex.def Info: figures/twig_index.png used on input line 138.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/index_html.png, id=858, 1369.115pt x 860.21375pt>
+<figures/index_html.png, id=890, 1369.115pt x 860.21375pt>
 File: figures/index_html.png Graphic file (type png)
 
 <use figures/index_html.png>
 Package pdftex.def Info: figures/index_html.png used on input line 145.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/base_html.png, id=859, 1369.115pt x 860.21375pt>
+<figures/base_html.png, id=891, 1369.115pt x 860.21375pt>
 File: figures/base_html.png Graphic file (type png)
 
 <use figures/base_html.png>
 Package pdftex.def Info: figures/base_html.png used on input line 146.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/bootstrap_html.png, id=860, 1369.115pt x 860.21375pt>
+<figures/bootstrap_html.png, id=892, 1369.115pt x 860.21375pt>
 File: figures/bootstrap_html.png Graphic file (type png)
 
 <use figures/bootstrap_html.png>
 Package pdftex.def Info: figures/bootstrap_html.png used on input line 153.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/homepage.png, id=861, 1369.115pt x 860.21375pt>
+<figures/homepage.png, id=893, 1369.115pt x 860.21375pt>
 File: figures/homepage.png Graphic file (type png)
 
 <use figures/homepage.png>
 Package pdftex.def Info: figures/homepage.png used on input line 160.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/entity_crud.png, id=862, 1369.115pt x 860.21375pt>
+<figures/entity_crud.png, id=894, 1369.115pt x 860.21375pt>
 File: figures/entity_crud.png Graphic file (type png)
 
 <use figures/entity_crud.png>
@@ -1009,21 +1009,21 @@ Package pdftex.def Info: figures/entity_crud.png used on input line 171.
 v.png>] [29 <./figures/default_controller.png> <./figures/twig_index.png>] [30 
 <./figures/index_html.png> <./figures/base_html.png>] [31 <./figures/bootstrap_
 html.png> <./figures/homepage.png>]
-<figures/mamp_ports.png, id=890, 650.43pt x 553.06625pt>
+<figures/mamp_ports.png, id=923, 650.43pt x 553.06625pt>
 File: figures/mamp_ports.png Graphic file (type png)
 
 <use figures/mamp_ports.png>
 Package pdftex.def Info: figures/mamp_ports.png used on input line 180.
 (pdftex.def)             Requested size: 400.0pt x 340.1295pt.
 
-<figures/entities.png, id=891, 1369.115pt x 860.21375pt>
+<figures/entities.png, id=924, 1369.115pt x 860.21375pt>
 File: figures/entities.png Graphic file (type png)
 
 <use figures/entities.png>
 Package pdftex.def Info: figures/entities.png used on input line 187.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/tables_user_entity.png, id=892, 1369.115pt x 860.21375pt>
+<figures/tables_user_entity.png, id=925, 1369.115pt x 860.21375pt>
 File: figures/tables_user_entity.png Graphic file (type png)
 
 <use figures/tables_user_entity.png>
@@ -1031,14 +1031,14 @@ Package pdftex.def Info: figures/tables_user_entity.png used on input line 194.
 
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/templates.png, id=893, 1369.115pt x 860.21375pt>
+<figures/templates.png, id=926, 1369.115pt x 860.21375pt>
 File: figures/templates.png Graphic file (type png)
 
 <use figures/templates.png>
 Package pdftex.def Info: figures/templates.png used on input line 201.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/form_type.png, id=894, 1369.115pt x 860.21375pt>
+<figures/form_type.png, id=927, 1369.115pt x 860.21375pt>
 File: figures/form_type.png Graphic file (type png)
 
 <use figures/form_type.png>
@@ -1047,28 +1047,28 @@ Package pdftex.def Info: figures/form_type.png used on input line 208.
  [32 <./figures/entity_crud.png>] [33 <./figures/mamp_ports.png>] [34 <./figure
 s/entities.png> <./figures/tables_user_entity.png>]
 [35 <./figures/templates.png> <./figures/form_type.png>] [36]
-<figures/index_html_twig.png, id=926, 1284.8pt x 803.0pt>
+<figures/index_html_twig.png, id=958, 1284.8pt x 803.0pt>
 File: figures/index_html_twig.png Graphic file (type png)
 
 <use figures/index_html_twig.png>
 Package pdftex.def Info: figures/index_html_twig.png used on input line 236.
 (pdftex.def)             Requested size: 400.0pt x 249.99342pt.
 
-<figures/new_html_twig.png, id=927, 1284.8pt x 803.0pt>
+<figures/new_html_twig.png, id=959, 1284.8pt x 803.0pt>
 File: figures/new_html_twig.png Graphic file (type png)
 
 <use figures/new_html_twig.png>
 Package pdftex.def Info: figures/new_html_twig.png used on input line 243.
 (pdftex.def)             Requested size: 400.0pt x 249.99342pt.
 
-<figures/show_html_twig.png, id=928, 1284.8pt x 803.0pt>
+<figures/show_html_twig.png, id=960, 1284.8pt x 803.0pt>
 File: figures/show_html_twig.png Graphic file (type png)
 
 <use figures/show_html_twig.png>
 Package pdftex.def Info: figures/show_html_twig.png used on input line 250.
 (pdftex.def)             Requested size: 400.0pt x 249.99342pt.
 
-<figures/edit_html_twig.png, id=929, 1284.8pt x 803.0pt>
+<figures/edit_html_twig.png, id=961, 1284.8pt x 803.0pt>
 File: figures/edit_html_twig.png Graphic file (type png)
 
 <use figures/edit_html_twig.png>
@@ -1076,35 +1076,35 @@ Package pdftex.def Info: figures/edit_html_twig.png used on input line 257.
 (pdftex.def)             Requested size: 400.0pt x 249.99342pt.
  [37 <./figures/index_html_twig.png>] [38 <./figures/new_html_twig.png> <./figu
 res/show_html_twig.png>] [39 <./figures/edit_html_twig.png>] <figures/userType.
-png, id=948, 1369.115pt x 860.21375pt>
+png, id=980, 1369.115pt x 860.21375pt>
 File: figures/userType.png Graphic file (type png)
 
 <use figures/userType.png>
 Package pdftex.def Info: figures/userType.png used on input line 270.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/form_label.png, id=950, 1369.115pt x 860.21375pt>
+<figures/form_label.png, id=982, 1369.115pt x 860.21375pt>
 File: figures/form_label.png Graphic file (type png)
 
 <use figures/form_label.png>
 Package pdftex.def Info: figures/form_label.png used on input line 285.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
  [40 <./figures/userType.png>]
-<figures/form_validation.png, id=957, 1369.115pt x 860.21375pt>
+<figures/form_validation.png, id=989, 1369.115pt x 860.21375pt>
 File: figures/form_validation.png Graphic file (type png)
 
 <use figures/form_validation.png>
 Package pdftex.def Info: figures/form_validation.png used on input line 298.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/entity_validation.png, id=959, 1369.115pt x 860.21375pt>
+<figures/entity_validation.png, id=991, 1369.115pt x 860.21375pt>
 File: figures/entity_validation.png Graphic file (type png)
 
 <use figures/entity_validation.png>
 Package pdftex.def Info: figures/entity_validation.png used on input line 307.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/assert_constraints.png, id=961, 1369.115pt x 860.21375pt>
+<figures/assert_constraints.png, id=993, 1369.115pt x 860.21375pt>
 File: figures/assert_constraints.png Graphic file (type png)
 
 <use figures/assert_constraints.png>
@@ -1113,14 +1113,14 @@ Package pdftex.def Info: figures/assert_constraints.png used on input line 317.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
  [41 <./figures/form_label.png>] [42 <./figures/form_validation.png> <./figures
 /entity_validation.png>] [43 <./figures/assert_constraints.png>]
-<figures/form_errors.png, id=980, 1369.115pt x 860.21375pt>
+<figures/form_errors.png, id=1012, 1369.115pt x 860.21375pt>
 File: figures/form_errors.png Graphic file (type png)
 
 <use figures/form_errors.png>
 Package pdftex.def Info: figures/form_errors.png used on input line 332.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
  [44 <./figures/form_errors.png>]
-<figures/formthemeoverwrite.png, id=987, 1369.115pt x 860.21375pt>
+<figures/formthemeoverwrite.png, id=1019, 1369.115pt x 860.21375pt>
 File: figures/formthemeoverwrite.png Graphic file (type png)
 
 <use figures/formthemeoverwrite.png>
@@ -1128,7 +1128,7 @@ Package pdftex.def Info: figures/formthemeoverwrite.png used on input line 348.
 
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/usercontroller_button.png, id=988, 1369.115pt x 860.21375pt>
+<figures/usercontroller_button.png, id=1020, 1369.115pt x 860.21375pt>
 File: figures/usercontroller_button.png Graphic file (type png)
 
 <use figures/usercontroller_button.png>
@@ -1136,7 +1136,7 @@ Package pdftex.def Info: figures/usercontroller_button.png used on input line 3
 55.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/form_theming.png, id=990, 1284.8pt x 803.0pt>
+<figures/form_theming.png, id=1022, 1284.8pt x 803.0pt>
 File: figures/form_theming.png Graphic file (type png)
 
 <use figures/form_theming.png>
@@ -1144,14 +1144,14 @@ Package pdftex.def Info: figures/form_theming.png used on input line 364.
 (pdftex.def)             Requested size: 400.0pt x 249.99342pt.
  [45 <./figures/formthemeoverwrite.png>] [46 <./figures/usercontroller_button.p
 ng> <./figures/form_theming.png>]
-<figures/fixtures.png, id=1004, 1369.115pt x 860.21375pt>
+<figures/fixtures.png, id=1036, 1369.115pt x 860.21375pt>
 File: figures/fixtures.png Graphic file (type png)
 
 <use figures/fixtures.png>
 Package pdftex.def Info: figures/fixtures.png used on input line 386.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/bundles.png, id=1005, 1369.115pt x 860.21375pt>
+<figures/bundles.png, id=1037, 1369.115pt x 860.21375pt>
 File: figures/bundles.png Graphic file (type png)
 
 <use figures/bundles.png>
@@ -1163,14 +1163,14 @@ Overfull \hbox (48.88933pt too wide) in paragraph at lines 398--399
 es and a class called Pop-u-la-teUserTable.php.
  []
 
-<figures/faker.png, id=1008, 1369.115pt x 860.21375pt>
+<figures/faker.png, id=1040, 1369.115pt x 860.21375pt>
 File: figures/faker.png Graphic file (type png)
  <use figures/faker.png>
 Package pdftex.def Info: figures/faker.png used on input line 402.
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
 [47 <./figures/fixtures.png>] [48 <./figures/bundles.png> <./figures/faker.png>
-] <figures/objectmanager_flush.png, id=1021, 1369.115pt x 860.21375pt>
+] <figures/objectmanager_flush.png, id=1054, 1369.115pt x 860.21375pt>
 File: figures/objectmanager_flush.png Graphic file (type png)
 
 <use figures/objectmanager_flush.png>
@@ -1178,24 +1178,65 @@ Package pdftex.def Info: figures/objectmanager_flush.png used on input line 411
 .
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
 
-<figures/fixtures_load_purge.png, id=1022, 1369.115pt x 860.21375pt>
+<figures/fixtures_load_purge.png, id=1055, 1369.115pt x 860.21375pt>
 File: figures/fixtures_load_purge.png Graphic file (type png)
 
 <use figures/fixtures_load_purge.png>
 Package pdftex.def Info: figures/fixtures_load_purge.png used on input line 418
 .
 (pdftex.def)             Requested size: 400.0pt x 251.31946pt.
-) [49 <./figures/objectmanager_flush.png>] [50 <./figures/fixtures_load_purge.p
-ng>]
+ [49 <./figures/objectmanager_flush.png>]
+[50 <./figures/fixtures_load_purge.png>]
+<figures/security_yml.png, id=1067, 1369.115pt x 860.21375pt>
+File: figures/security_yml.png Graphic file (type png)
+
+<use figures/security_yml.png>
+Package pdftex.def Info: figures/security_yml.png used on input line 442.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+
+<figures/hash_password.png, id=1070, 1369.115pt x 860.21375pt>
+File: figures/hash_password.png Graphic file (type png)
+
+<use figures/hash_password.png>
+Package pdftex.def Info: figures/hash_password.png used on input line 451.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+ [51 <./figures/security_yml.png>]
+<figures/salt.png, id=1078, 1369.115pt x 860.21375pt>
+File: figures/salt.png Graphic file (type png)
+ <use figures/salt.png>
+Package pdftex.def Info: figures/salt.png used on input line 460.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+
+Overfull \hbox (2.68842pt too wide) in paragraph at lines 465--466
+[]\OT1/ptm/m/n/12 Encoding the pass-word is ex-e-cuted in line 38 of fig-ure []
+4.41[] by cap-tur-ing the hash-Pass-word
+ []
+
+<figures/password.png, id=1081, 1369.115pt x 860.21375pt>
+File: figures/password.png Graphic file (type png)
+
+<use figures/password.png>
+Package pdftex.def Info: figures/password.png used on input line 469.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+ [52 <./figures/hash_password.png>] [53 <./figures/salt.png> <./figures/passwor
+d.png>]
+<figures/user_interface.png, id=1094, 1369.115pt x 860.21375pt>
+File: figures/user_interface.png Graphic file (type png)
+
+<use figures/user_interface.png>
+Package pdftex.def Info: figures/user_interface.png used on input line 491.
+(pdftex.def)             Requested size: 400.0pt x 251.31946pt.
+) [54] [55 <./figures/user_interface.png>]
 \openout2 = `chapter6.aux'.
 
- (./chapter6.tex
+
+(./chapter6.tex
 Chapter 5.
-[51
+[56
 
 
 
-]) [52] [53]
+]) [57] [58]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
@@ -1208,7 +1249,7 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
 
-Excluding 'comment' comment. Excluding 'comment' comment.) [54
+Excluding 'comment' comment. Excluding 'comment' comment.) [59
 
 
 
@@ -1218,7 +1259,7 @@ Excluding 'comment' comment. Excluding 'comment' comment.) [54
  (./chapter8.tex
 Chapter 7.
 Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.) [55
+Excluding 'comment' comment. Excluding 'comment' comment.) [60
 
 
 
@@ -1229,55 +1270,55 @@ Underfull \hbox (badness 5189) in paragraph at lines 40--42
 yed peo-ple.  on-line,
  []
 
-[56
+[61
 
 
-]) [57]
+]) [62]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [58
+ (./appendix.tex [63
 
 
 ] Excluding 'comment' comment.
-<Figures/Login_Screen.png, id=1081, 871.255pt x 609.27625pt>
+<Figures/Login_Screen.png, id=1151, 871.255pt x 609.27625pt>
 File: Figures/Login_Screen.png Graphic file (type png)
 
 <use Figures/Login_Screen.png>
 Package pdftex.def Info: Figures/Login_Screen.png used on input line 15.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [59 <./Figures/Login_Screen.png>]
+ [64 <./Figures/Login_Screen.png>]
 Excluding 'comment' comment.
-<Figures/Question_Entry.png, id=1087, 871.255pt x 609.27625pt>
+<Figures/Question_Entry.png, id=1157, 871.255pt x 609.27625pt>
 File: Figures/Question_Entry.png Graphic file (type png)
 
 <use Figures/Question_Entry.png>
 Package pdftex.def Info: Figures/Question_Entry.png used on input line 78.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [60 <./Figures/Question_Entry.png>]
+ [65 <./Figures/Question_Entry.png>]
 Excluding 'comment' comment.
-<Figures/Generate_Question_Paper.png, id=1093, 871.255pt x 609.27625pt>
+<Figures/Generate_Question_Paper.png, id=1163, 871.255pt x 609.27625pt>
 File: Figures/Generate_Question_Paper.png Graphic file (type png)
 
 <use Figures/Generate_Question_Paper.png>
 Package pdftex.def Info: Figures/Generate_Question_Paper.png used on input line
  96.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [61 <./Figures/Generate_Question_Paper.png>] Excluding 'comment' comment.
-<Figures/Show_Questions.png, id=1099, 871.255pt x 609.27625pt>
+ [66 <./Figures/Generate_Question_Paper.png>] Excluding 'comment' comment.
+<Figures/Show_Questions.png, id=1169, 871.255pt x 609.27625pt>
 File: Figures/Show_Questions.png Graphic file (type png)
 
 <use Figures/Show_Questions.png>
 Package pdftex.def Info: Figures/Show_Questions.png used on input line 252.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
- [62 <./Figures/Show_Questions.png>]
+ [67 <./Figures/Show_Questions.png>]
 Excluding 'comment' comment.
-<Figures/Shows.png, id=1105, 871.255pt x 609.27625pt>
+<Figures/Shows.png, id=1175, 871.255pt x 609.27625pt>
 File: Figures/Shows.png Graphic file (type png)
  <use Figures/Shows.png>
 Package pdftex.def Info: Figures/Shows.png used on input line 417.
 (pdftex.def)             Requested size: 400.0pt x 279.72195pt.
 
-Excluding 'comment' comment. [63 <./Figures/Shows.png>])
+Excluding 'comment' comment. [68 <./Figures/Shows.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./Thesis.aux
@@ -1287,7 +1328,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8431B27BB7FAC1DF486748BB7686492E;5660.
+(rerunfilecheck)             Checksum: 20ECC83387A61A3477A8709D4E0DB639;5920.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1295,10 +1336,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 8413 strings out of 493014
- 123189 string characters out of 6133351
- 220715 words of memory out of 5000000
- 11429 multiletter control sequences out of 15000+600000
+ 8461 strings out of 493014
+ 124103 string characters out of 6133351
+ 220963 words of memory out of 5000000
+ 11458 multiletter control sequences out of 15000+600000
  25470 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,10n,43p,2665b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1307,10 +1348,10 @@ exlive/2016/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Thesis.pdf (79 pages, 4918893 bytes).
+Output written on Thesis.pdf (84 pages, 5586350 bytes).
 PDF statistics:
- 1186 PDF objects out of 1200 (max. 8388607)
- 969 compressed objects within 10 object streams
- 242 named destinations out of 1000 (max. 500000)
- 1010 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1258 PDF objects out of 1440 (max. 8388607)
+ 1025 compressed objects within 11 object streams
+ 256 named destinations out of 1000 (max. 500000)
+ 1067 words of extra memory for PDF output out of 10000 (max. 10000000)
 

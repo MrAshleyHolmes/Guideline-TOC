@@ -420,4 +420,97 @@ on line 9 there is a namespace for the file which is also a bundle much like a d
    \label{fig:Purge Database}
 \end{figure}
 
-The line in the console window is what is used to purge what is currently in the database and add new data to it. Each user is persisted separately. 
+The line in the console window is what is used to purge what is currently in the database and add new data to it. Each user is persisted separately.
+
+\section{Passwords}
+
+\subsection{Password Fixtures}
+
+This section covers passwords and all that was done to encode them. There is a place where to make passwords and there is also a place in the fixtures where users are inherently uploaded. The first thing which was done was to work on the fixtures. There were a few things to do to make that work.
+
+\begin{itemize}
+  \item Make the fixture ContainerAware by means of the ContainerAwareInterface.
+    \item Adjust the security.yml file with the bcrypt encoder.
+      \item Write a method which uses the bcrypt to hash the password.
+        \item Encode the passwords in the fixture.
+\end{itemize}
+
+When the ContainerAwareInterface was implemented in the class declaration all of the services are then made available for use. This is needed to encode the password in the fixtures file. The file needs to be made ContainerAware. The encoder was added to the security.yml which is figure \ref{fig:Security.yml} lines 4 and 5.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/security_yml.png} % requires the graphicx package
+   \caption{Security.yml}
+   \label{fig:Security.yml}
+\end{figure}
+
+With that being done bcrypt was available for use. Use statements were also needed to make it work which needed to be added to the PopulateUserTable.php class. The use statements can be found on lines 14 and 16 of figure \ref{fig:Faker} and a private property called container was added in line 23. There is also a public function called setContainer which takes an argument of ContainerInterface and initially sets the container variable to null. Followed by this is a function which does the password encryption in figure \ref{fig:Hash Password}.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/hash_password.png} % requires the graphicx package
+   \caption{Hash Password}
+   \label{fig:Hash Password}
+\end{figure}
+
+The entity gets passed into the hashPassword method and the password which needed to be encrypted. With the fixture being containerAware it can be used to get the password encoder from the inbuilt security service. The security service was enabled in the security.yml file and specified which encryption method which was used. Line 88 is where the encoder variable name is to store that object or service. The service is then captured by calling the containers get method and passing in the service which is to be used. In this case, it is the security encoder factory. That service has a method called getEncoder and the entity is passed in once the method is invoked. The object which has been specified encoder has a method called encodePassword and if passed a password and salt to encode it and it will return and encrypted password. The salt to use also needs to be defined however, bcrypt comes with its own salt, PHP has a built-in mechanism which it uses to create salt and it puts the salt in the string which it returns. So salt is not needed however, it is required by Symfony as all the methods need to be used which are required. This is why a getSalt function had to be created in the User entity figure \ref{fig:getSalt Method} and returns null as bcrypt does not require anything.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/salt.png} % requires the graphicx package
+   \caption{getSalt Method}
+   \label{fig:getSalt Method}
+\end{figure}
+
+Encoding the password is executed in line 38 of figure \ref{fig:Object Manager Flush} by capturing the hashPassword method which was created and passing in the user object and the String of the password. The encrypted passwords are in figure \ref{fig:Password}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/password.png} % requires the graphicx package
+   \caption{Password}
+   \label{fig:Password}
+\end{figure}
+
+\section{Passwords}
+
+\subsection{Password Services}
+
+The last section covered encoding passwords from a fixture. This section is oriented around encoding passwords from a controller and writing the service. To do this, the following steps are needed:
+
+\begin{itemize}
+  \item Implement the UserInterface.
+    \item Create the service for encoding the passwords.
+      \item In the sevices.yml file implement the service.
+        \item Use the service container to call the encoding method.
+\end{itemize}
+
+Symfony is a set of bundle which does what it is asked to do. It is possible to create a security system from scratch if that is what was intended. However, Symfonys in-built system is so robust. Using it saved much coding time and gave much more features than it would be possible to code from the bottom up. To use Symfonys security system the UserInterface needed to be implemented. From the documentation. The UserInterface has five different methods to implement figure \ref{fig:UserInterface} shows this.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/user_interface.png} % requires the graphicx package
+   \caption{UserInterface}
+   \label{fig:UserInterface}
+\end{figure}
+
+To implement these methods use statements are added to the User entity class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
