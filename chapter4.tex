@@ -9,7 +9,7 @@ This chapter is a walkthrough of the steps which describe the construction of th
 
 \subsection{Command Line Instructions}
 
-As this application was centred towards security and being secure as the data it would hold would need to be kept safe. Therefore it made sense to focus on a good login with authentication and authorisation. To start working with Symfony, one needs to setup the Symfony enviroment through an installation process before Symfony applications can be created. Instructions for this can be found on the SensioLabs Symfony website. Navigating to the Documentation page. In there can be found Chapter 1 which has the Setup instructions under the Get Started dropdown menu. They explain the different ways for installing and setting up the Symfony framework for both Mac OS and Windows. Along with some\newline troubleshooting ideas if there are any problems with the installation. This application was built on a Mac OS so the instructions would vary slightly due to the command line instructions used. Using the installer made it easy to create this application with Symfony and only needed to be done once as it was installed globally on the machine.
+As this application was centred towards security and being secure as the data it would hold would need to be kept safe. Therefore it made sense to focus on a good login with authentication and authorisation. To start working with Symfony, one needs to setup the Symfony environment through an installation process before Symfony applications can be created. Instructions for this can be found on the SensioLabs Symfony website. Navigating to the Documentation page. In there can be found Chapter 1 which has the Setup instructions under the Get Started dropdown menu. They explain the different ways for installing and setting up the Symfony framework for both Mac OS and Windows. Along with some\newline troubleshooting ideas if there are any problems with the installation. This application was built on a Mac OS so the instructions would vary slightly due to the command line instructions used. Using the installer made it easy to create this application with Symfony and only needed to be done once as it was installed globally on the machine.
 
 \begin{figure}[htbp]
    \centering
@@ -124,7 +124,7 @@ Now that the configuration phase has been completed one now navigates to the bro
 
 \subsection{PhpStorm IDE for PHP}
 
-Most of the files live in src/AppBundle. Looking at the controller called DefaultController in the below figure \ref{fig:DefaultController}. This controller class defines what is seen in figure \ref{fig:Symfony Browser}. It renders the Symfony Welcome Page. Take note of the @Route("/", name="homepage") annotation on line 12. It matches the route in figure \ref{fig:Web Debug Toolbar and Profiler Extended}. The next process was to remove the extraneous code which was not needed in the Twig Template and the DefaultController. In the template itself, it was using some variables which was passed in line 18 of figure \ref{fig:DefaultController} in the\newline DefaultController.php class. With this removed, Bootstrap was enabled as a CDN and added to the templates to provide consistency across all pages. In order to use Bootstrap, it needed to be downloaded from the Bootstrap website. From the Getting started section there are examples which can be chosen as a starting template to use as a foundation for all templates. This was added to the base.html.twig and then modified to make it more specific to the project. Twig uses inheritance and all templates extend from the base.html.twig. In addition to this a small amount of custom CSS was added to achieve the result in figure \ref{fig:Home Page}
+Most of the files live in src/AppBundle. Looking at the controller called DefaultController in the below figure \ref{fig:DefaultController}. This controller class defines what is seen in figure \ref{fig:Symfony Browser}. It renders the Symfony Welcome Page. Take note of the @Route("/", name="homepage") annotation on line 12. It matches the route in figure \ref{fig:Web Debug Toolbar and Profiler Extended}. The next process was to remove the extraneous code which was not needed in the Twig template and the DefaultController. In the template itself, it was using some variables which was passed in line 18 of figure \ref{fig:DefaultController} in the\newline DefaultController.php class. With this removed, Bootstrap was enabled as a CDN and added to the templates to provide consistency across all pages. In order to use Bootstrap, it needed to be downloaded from the Bootstrap website. From the Getting started section there are examples which can be chosen as a starting template to use as a foundation for all templates. This was added to the base.html.twig and then modified to make it more specific to the project. Twig uses inheritance and all templates extend from the base.html.twig. In addition to this a small amount of custom CSS was added to achieve the result in figure \ref{fig:Home Page}
 
 \begin{figure}[htbp]
    \centering
@@ -136,8 +136,8 @@ Most of the files live in src/AppBundle. Looking at the controller called Defaul
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=400pt]{figures/twig_index.png} % requires the graphicx package
-   \caption{Twig Template in IDE}
-   \label{fig:Twig Template in IDE}
+   \caption{Twig template in IDE}
+   \label{fig:Twig template in IDE}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -199,8 +199,8 @@ This section covers Object Relational Mapping or ORM. With using an ORM, the con
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=400pt]{figures/templates.png} % requires the graphicx package
-   \caption{Twig Templates}
-   \label{fig:Twig Templates}
+   \caption{Twig templates}
+   \label{fig:Twig templates}
 \end{figure}
 
 \begin{figure}[htbp]
@@ -210,7 +210,7 @@ This section covers Object Relational Mapping or ORM. With using an ORM, the con
    \label{fig:Form Type}
 \end{figure}
 
-Issuing a command in the terminal. php bin/console doctrine:database:create will create a database with the name project which was added to the parameters.yml file. Creating the entities is done in the same manor. php bin/console doctrine:generate:entity brings up a wizard which asks where to put the entity. Giving the command AppBundle:User. The entities were all placed in a directory called Entity which resides in src/AppBundle. All the work was was done is in AppBundle. The fields in the database are then added along with a repository class which will be discussed later. There is now a username, firstname, lastname, email and password with type String and field length of 80 characters. An example of this is in figure \ref{fig:User Table}. Symfony created two different files. The first is the user entity which is the model which is used to base database manipulation, object validation or form validation. The second thing which was done was to create the schema which is done in the terminal with the command of php bin/console doctrine:schema:create. This creates a table structure ready for use off of the user object. To create the CRUD in the terminal it was php bin/console generate:doctrine:crud. The wizard asks where the entity would be found and based off. As discussed it is in AppBundle:User and giving write actions which allows for the update and delete. All the templates were created and added to the Resources directory which are used to create the users in figure \ref{fig:Twig Templates} also a class called UserType.php which is a FormType and is what all the forms are based off in figure \ref{fig:Form Type}. With this section completed a bit of functional testing was done to make sure that users could be added to the database, edited and removed.
+Issuing a command in the terminal. php bin/console doctrine:database:create will create a database with the name project which was added to the parameters.yml file. Creating the entities is done in the same manor. php bin/console doctrine:generate:entity brings up a wizard which asks where to put the entity. Giving the command AppBundle:User. The entities were all placed in a directory called Entity which resides in src/AppBundle. All the work was was done is in AppBundle. The fields in the database are then added along with a repository class which will be discussed later. There is now a username, firstname, lastname, email and password with type String and field length of 80 characters. An example of this is in figure \ref{fig:User Table}. Symfony created two different files. The first is the user entity which is the model which is used to base database manipulation, object validation or form validation. The second thing which was done was to create the schema which is done in the terminal with the command of php bin/console doctrine:schema:create. This creates a table structure ready for use off of the user object. To create the CRUD in the terminal it was php bin/console generate:doctrine:crud. The wizard asks where the entity would be found and based off. As discussed it is in AppBundle:User and giving write actions which allows for the update and delete. All the templates were created and added to the Resources directory which are used to create the users in figure \ref{fig:Twig templates} also a class called UserType.php which is a FormType and is what all the forms are based off in figure \ref{fig:Form Type}. With this section completed a bit of functional testing was done to make sure that users could be added to the database, edited and removed.
 
 \section{Twig}
 
@@ -273,7 +273,7 @@ The FormType works hand in hand with the user object which is created and thus i
 \end{figure}
 
 \begin{itemize}
-  \item The input label - is expressly put in with the form rendering where in the twig template figure \ref{fig:Form Label} line 12, 17, 22, 27, and 32 is the form label.
+  \item The input label - is expressly put in with the form rendering where in the Twig template figure \ref{fig:Form Label} line 12, 17, 22, 27, and 32 is the form label.
     \item Attribute required is true forces the user to complete this section of the form.
       \item The array of other attributes are which go inside the input tag.
         \item Placeholder and class are added here.
@@ -291,7 +291,7 @@ The FormType works hand in hand with the user object which is created and thus i
 
 \subsection{Validation of the Forms}
 
-At this stage without populating the form and by using the create button to create a new user in the form there was html5 validation. A notification message would pop up with an instruction such as, "Please fill out this field." In order to validate the form or objects on the server side. The form validation needs to be turned off. Figure \ref{fig:Form Validation} shows how this was done.
+At this stage without populating the form and by using the create button to create a new user in the form there was HTML5 validation. A notification message would pop up with an instruction such as, "Please fill out this field." In order to validate the form or objects on the server side. The form validation needs to be turned off. Figure \ref{fig:Form Validation} shows how this was done.
 
 \begin{figure}[htbp]
    \centering
@@ -395,7 +395,7 @@ Every good application needs some way to test the data which is being worked on.
    \label{fig:Bundles}
 \end{figure}
 
-The following line of code figure \ref{fig:Bundles} was added to AppKernel in the bundles array of which activates the bundle. It was now possible to build a load in fixtures class. In AppBundle a directory is created with the name	 DataFixtures and a class called PopulateUserTable.php. In figure \ref{fig:Faker}
+The following line of code figure \ref{fig:Bundles} was added to AppKernel in the bundles array of which activates the bundle. It was now possible to build a load in fixtures class. In AppBundle a directory is created with the name	 DataFixtures and a class called \newline PopulateUserTable.php. In figure \ref{fig:Faker}
 
 \begin{figure}[htbp]
    \centering
@@ -471,8 +471,6 @@ Encoding the password is executed in line 38 of figure \ref{fig:Object Manager F
    \label{fig:Password}
 \end{figure}
 
-\section{Passwords}
-
 \subsection{Password Services}
 
 The last section covered encoding passwords from a fixture. This section is oriented around encoding passwords from a controller and writing the service. To do this, the following steps are needed:
@@ -484,8 +482,6 @@ The last section covered encoding passwords from a fixture. This section is orie
         \item Use the service container to call the encoding method.
 \end{itemize}
 
-Symfony is a set of bundle which does what it is asked to do. It is possible to create a security system from scratch if that is what was intended. However, Symfonys in-built system is so robust. Using it saved much coding time and gave much more features than it would be possible to code from the bottom up. To use Symfonys security system the UserInterface needed to be implemented. From the documentation. The UserInterface has five different methods to implement figure \ref{fig:UserInterface} shows this.
-
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=400pt]{figures/user_interface.png} % requires the graphicx package
@@ -493,13 +489,361 @@ Symfony is a set of bundle which does what it is asked to do. It is possible to 
    \label{fig:UserInterface}
 \end{figure}
 
-To implement these methods use statements are added to the User entity class.
+Symfony is a set of bundle which does what it is asked to do. It is possible to create a security system from scratch if that is what was intended. However, Symfonys in-built system is so robust. Using it saved much coding time and gave much more features than it would be possible to code from the bottom up. To use Symfonys security system the UserInterface needed to be implemented. From the documentation. The UserInterface has five different methods to implement figure \ref{fig:UserInterface} shows this.
 
+To implement these methods a statement was added to the User entity class. From figure \ref{fig:Entity Validation} which we originally shown in the validation section of this chapter. Line 6 is added and the interface is implemented on line 21. Some of the methods were already in the User entity class. Only the ones which are not already there were added. Such as a function by the name of eraseCredentials which was left blank. Although it is not used in this application. The class is required by the interface. The same use statement is added to the service. A service is an object whose responsibility is to perform a specific task. The service which was created was to encrypt the password. Services are a three step process.
 
+\begin{enumerate}
+  \item Create the service.
+    \item Enable the service in the services.yml file.
+      \item Use the service in the controller by calling it with the containers get method.
+\end{enumerate}
 
+Starting with creating a file called UserManager.php which lives in a folder called Services which was added to AppBundle. This file was namespaced in order to match the hierarchy. And then the use statement from the User entity was added. In addition was this line 11 in figure \ref{fig:UserManager}
 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/user_manager.png} % requires the graphicx package
+   \caption{UserManager}
+   \label{fig:UserManager}
+\end{figure}
 
+The private variable encoderFactory in line 19 is where the encoderFactory is stored. The constructor in line 24 is injected with the encoderFactory object and therefore no setter method was needed. The method that encodes the password is on line 33 and takes two parameters such as the userInterface and a String which represents the password which is to be encrypted. A variable was set in line 38 to store the encoded password and the it needs to be encoded which is done by the EncoderFactory which takes an argument and the UserInterface is passed in. The encodePassword method in line 39 takes two arguments. The String that needs to be encoded and the salt which is used. Which is actually bcrypt. The password was set into the entity by user which implements the UserInterface and by calling the setPassword method pass in the hashedPassword.
 
+The second step was to go into the services.yml file and enable the service. The service was named which could be anything but it was named in order to indicate where it resides. Then tell the caller of the service where the service is on line 8 of figure \ref{fig:Yaml Services}. So providing the namespace of the service which was created. So when the AppBundle, Services, UserManager is called in the controller it will grab this class. Then tell the container what arguments to pass into it. The arguments on line 9 are passed in which is the encoder factory object.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/services_yml.png} % requires the graphicx package
+   \caption{Yaml Services}
+   \label{fig:Yaml Services}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/user_controller.png} % requires the graphicx package
+   \caption{UserController}
+   \label{fig:UserController}
+\end{figure}
+
+In the UserController under the newAction the service needed to be called in and encrypt the password which would be passed. This was done on line 56 of figure \ref{fig:UserController} with the containers get method which was the same name used in the services.yml file. The encoded factory is automatically pulled in as an argument was attached to that class. Line 57 calls the method that was created in the UserManager. Passing the entity which is the user and the password.
+
+\subsection{Change Password Form}
+
+The following is explained in order to create and handle the new password form.
+
+\begin{itemize}
+  \item Create a new password.html.twig file.
+    \item Create a password controller.
+      \item Password form generator method.
+        \item Form submission controller.
+          \item Redirect.
+\end{itemize}
+
+A new file was created in the user directory called password.html.twig as with figure \ref{fig:Password Twig template}.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/password_html_twig.png} % requires the graphicx package
+   \caption{Password Twig template}
+   \label{fig:Password Twig template}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/change_password.png} % requires the graphicx package
+   \caption{Change Password Form}
+   \label{fig:Change Password Form}
+\end{figure}
+
+Creating the controller in the UserController. There were two things to cover in writing the controller which handle the form. Which was create the view and display it. And then handle the form and redirect it which will be covered in a later section.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/password_action.png} % requires the graphicx package
+   \caption{passwordAction Controller}
+   \label{fig:passwordAction Controller}
+\end{figure}
+
+The Action suffix is required on line 200 as it is a controller which handles a view. The view is the Twig template. Passing in the id which creates a hook into the entity manager on line 202 using the container. And then using the entity manager to get the data with the repository using the find method and pass it inside the entity object. If the entity is not found and exception would be generated. This happens on line 205 to 209. A route is then added as annotation in line 194 in order to get into this function. The route needs to be passed an id and give it a unique name. In other words a variable id and then password separated by a forward slash. The name in the route is what was used in the Twig template. The next annotation is what method was used to get to the route which is a GET String. The last annotation is Template which does not take an argument as the suffix Action was used. Symfony can figure out where it is in order to get the template. In this case it would look for a password.html.twig within the Resources folder and a folder underneath that called user as that is the name of the controller. The form is then created in line 220 by calling the createPasswordForm method. Lastly, render the view by passing the view the entity and the form in an array on line 223. A link to the route was created in line 61 of figure \ref{fig:show.html.twig} for the user which has access to look at the page can change a password. So far this only displays the form. Once a change was made to the password a way in which to handle the form submission was required. This is shown in figure \ref{fig:createPassword Form} which creates a new form.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/create_password_form.png} % requires the graphicx package
+   \caption{createPassword Form}
+   \label{fig:createPassword Form}
+\end{figure}
+
+Line 235 gets passed the entity which is the User.php class and then the form gets returned to the invoker in line 253. The validation is managed in figure \ref{fig:Password Form Validation} on line 288. If the form validates, the data gets added to the database. If not, the rest of the action will execute and return another form with the errors. This is done through annotation. Line 291 is the service which was previously written and encode the password. The password has been encoded and the entity already persisted. In line 294 it is flushed to the database and then redirected to another page which is the admin show page in line 297 which requires an id. Some functional testing was done to ensure all implementations were in order.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/create_password_form_validation.png} % requires the graphicx package
+   \caption{Password Form Validation}
+   \label{fig:Password Form Validation}
+\end{figure}
+
+\section{Authentication}
+
+\subsection{Login Form}
+
+Authorisation is about logging a user in. If a user is on the site whether they are logged in or not. They are still authenticated, however the authentication is anonymously as was seen at the bottom of figure \ref{fig:Web Debug Toolbar and Profiler Extended}. This is where the login form is appropriate. To do this is as follows:
+
+\begin{itemize}
+  \item Adjust the security.yml.
+    \item Implement role hierarchy.
+      \item Look at how the security system takes over the login process.
+        \item Go through the SecurityController.
+          \item Adjust the twig template for login.
+\end{itemize}
+
+The five areas where the configurations were set are role hierarchy, providers, firewalls, secured area and access control in figure \ref{fig:Security.yml}. Role hierarchy is the role of the user. With the roles inside of role hierarchy defines the page level or folder level specific actions which the user can do. Role Admin inherits all the roles which the user has in addition to other page or folder level roles. The same for role Super Admin. Providers has database users meaning the roles will come from the database. The providers need to be told where to get the entity from,  since using the database user and this is AppBundle:User and the property to check against is the username. Firewalls is just as it sounds. It gives specific access or meaning to areas of the website. The one on line 22 is for development purposes and it states that there will be no security on any profiling pages. In secured area the pattern was set to anything. Paths were given which would later be used by the SecurityController in AppBundle Controller directory. Anonymous was set to everything in order to allow access to the login page by all. The Symfony documentation provides a sample of the SecurityController which was available for use of which was modified to suit the needs of this project. The controller can be seen in figure \ref{fig:SecurityController}.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/security_controller.png} % requires the graphicx package
+   \caption{SecurityController}
+   \label{fig:SecurityController}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/login_html_twig.png} % requires the graphicx package
+   \caption{Login Form}
+   \label{fig:Login Form}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/symfony_profiler_login.png} % requires the graphicx package
+   \caption{Symfony Login Profiler}
+   \label{fig:Symfony Login Profiler}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/access_decision_logs.png} % requires the graphicx package
+   \caption{Symfony Login Profiler}
+   \label{fig:Symfony Login Profiler}
+\end{figure}
+
+A sample login form was also available from the Symfony documentation page of which was used and changed and can be seen in figure \ref{fig:Login Form}.
+
+Once logged in the Symfony debug toolbars profiler page shows which roles belong to the user and these match what was added to the security.yml and used in the SecurityController.
+
+\section{Controllers}
+
+\subsection{Extending the controller}
+
+The login form and controllers were extended to have a successful user experience. The below section covers this.
+
+\begin{itemize}
+  \item Make errors look better.
+    \item Adjust base template with the proper links.
+      \item Make login by email available.
+        \item Use twig function for assigned roles.
+          \item Using the repository for username or email.
+\end{itemize}
+
+As of now the template which was used from the Symfony website was using a translation service, which was commented out in line 10 of figure \ref{fig:Login Form}. This was changed to a Bootstrap error message as used in line 9 to achieve the result in the image below. Adjustments were then made to the base.html.twig file where links such as login and logout were added. Twig logic was also added using its own is granted function to do a check for whether the user was authenticated with the relevant role and if so display the login and logout link at the top of the page. In figure \ref{fig:User Roles in the the base template} this can be seen from line 54 to 69.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/login_error.png} % requires the graphicx package
+   \caption{Login Form Error}
+   \label{fig:Login Form Error}
+\end{figure}
+
+Line 39 of the security.yml shows how to achieve a login through email. On line 24 the input tag for the label in the login.html.twig was change to accept the email instead of username to make the change which was done in the YAML file. In order to login with both username and email address an extra step was needed. The code for this was picked up from Symfony documentation page and placed in the UserRepository figure \ref{fig:UserRepository}.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/base_html_twig.png} % requires the graphicx package
+   \caption{User Roles in the the base template}
+   \label{fig:User Roles in the the base template}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/user_repository.png} % requires the graphicx package
+   \caption{UserRepository}
+   \label{fig:UserRepository}
+\end{figure}
+
+\section{Roles}
+
+\subsection{Putting roles in the database}
+
+Roles are placed into the database and interacted with through the Twig templates and controllers. Below is how it was done.
+
+\begin{itemize}
+  \item Add a property in order to use JSON array type.
+    \item Update the schema.
+      \item Set role by making adjustments in the controllers.
+        \item Adjust the fixtures.
+\end{itemize}
+
+So far the getRoles method has been used as with the UserInterface. However, there has been no mechanism to store values. To store values, a private property was addd to the User.php class in line 28 of figure \ref{fig:JSON array} with the JSON array annotation above it. A getter was already in place. Only a setter method needed to be added. The setter method would be passed in an array of roles. Once this was complete the schema was updated through the command line.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/json_array.png} % requires the graphicx package
+   \caption{JSON array}
+   \label{fig:JSON array}
+\end{figure}
+
+At the initial creation of every user. That user was assigned the role of user by adding the two lines of code in the UserController. Line 64 and 65 show this with reference to figure \ref{fig:UserController}. In PopulateUserTable the fixtures were also adjusted to add the roles to the users which were created. Back in figure \ref{fig:Object Manager Flush} it was possible to see.
+
+\subsection{Using the roles in the database}
+
+This section covers how to use the roles from a database.
+
+\begin{itemize}
+  \item Make User Admins from Super Admins.
+    \item Adjust the fixture to reflect this.
+\end{itemize}
+
+Making the user an Admin involved creating a private property in User.php called isAdmin of type boolean. As there is no boolean in SQL, instead this was replaced with a TINYINT of one or a zero using annotation in line 89 of figure \ref{fig:isAdmin}. A getter and a setter were also created for this attribute.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/is_admin.png} % requires the graphicx package
+   \caption{isAdmin}
+   \label{fig:isAdmin}
+\end{figure}
+
+The schema had to be updated after this, in order to update the database with the changes which were made and add the new column. A checkbox was then added to the view in figure \ref{fig:CheckboxType} lines 60 to 63, in order for the super user to add the role of Admin. 
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/checkbox_type.png} % requires the graphicx package
+   \caption{CheckboxType}
+   \label{fig:CheckboxType}
+\end{figure}
+
+The logic for this was placed inside the UserController.php in the newAction function on line 59. The isAdmin was also set to true for both the Super Admin and the Admin with exclusion to the regular users in the PopulateUserTable.php 
+
+\section{Authorisation}
+
+\subsection{Access Control}
+
+\begin{itemize}
+  \item Access control in security.yml.
+    \item Access denied parameters.
+\end{itemize}
+
+In the section of authentication. The access control attribute was left empty. In this section it will be completed. Creating the control list asserts the type of role to have access to a set of pages. It is available to see at the bottom of the security.yml file \ref{fig:Security.yml}. It is a hierarchy for users to view specific pages. On line 18 there is an access denied url and this will send an any user back to the home page incase they are denied something which only works for authenticated users and not anonymous users.
+
+\section{CSRF Protection}
+
+\subsection{Testing the roles}
+
+By generating a few controllers to demonstrate some of the access control configurations and protecting agains Cross-Site Request Forgery attacks.
+
+\begin{itemize}
+  \item Generate a controller in console.
+    \item Adjust the generated twig files.
+      \item Adjust base file.
+        \item Test against ACL.
+          \item Add CSRF.
+\end{itemize}
+
+Making a controller class in the terminal requires the following command statement, php bin/console generate:controller. Giving it the name AppBundle:Pages, with a routing format of annotation and using a template format. Then by giving the name of the controllers which is preferred to have inside the controller class. The first was called Contact which needed to be appended with the name Action as a suffix. A second is created for Profile. The third for About and the last for Covers and Tasks. By confirming the generation, Symfony creates all the necessary files. The Twig templates were then adjusted to suit as the paths to the newly generated pages needed to be added. With that in place the menu has now been updated. And the navigation works between all pages which are all publicly accessible. When logging in with Super Admin privileges the Covers and Tasks tab is available for view. To add the CSRF protection. This was simply in line 32 in the security.yml and then adding a token in the login.html.twig template. The token is on line 41 and 42 of figure \ref{fig:CSRF Token}. The token is available to view using inspect element in the browser in figure 
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/csrf_token.png} % requires the graphicx package
+   \caption{CSRF Token}
+   \label{fig:CSRF Token}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/csrf_token_element.png} % requires the graphicx package
+   \caption{CSRF Token Browser}
+   \label{fig:CSRF Token Browser}
+\end{figure}
+
+\subsection{Controller and templates adjustments based on user roles}
+
+Controllers and templates are adjusted based on the roles which are stored in the database and which are stored in the entity of the users which are viewed.
+
+\begin{itemize}
+  \item Restrict Super Admins from editing same Admin.
+    \item Flash messages preventing confusion.
+      \item Remove links for editing other Admins.
+\end{itemize}
+
+At this stage when logging in with the role of Super Admin it was possible for one Super Admin to edit the profile or password of another Super Admin. This needed to be prevented. In the editAction of the UserController a check was implemented in order to check if the user which is in the entity. Not the currently logged in but the entity which is viewed on the user list. There will be a check to verify if that user has the role of Super Admin or not. If they are a user then the authenticated user will be directed back to another page. This can be directly checked in array function on line 103 of figure \ref{fig:editAction}. Looking for the role ROLE SUPER ADMIN and calling the getRoles method which returns an array. If that role was inside the entity which was being viewed then the user would be returned to the show page. With not being able to go into and edit another users edit page. That user was not able to see if anything was happening behind the scenes. Therefore a message was to be created to tell the user what was happening. Symfony has an in-built session management system. Within that system is what is called flash messages which is on line 106. Chained onto that is the add method which takes two arguments. The first is the name of the flash message and the message to the user. These flashbag messages are displayed in the show.html.twig template. Figure \ref{fig:Show Page} has these for view on lines 8 and 16. This was also needed in the function passwordAction and deleteAction. A better approach to this was to not present those links to the user at all. So the adjustment was made and is on line 55 to 59 by means of an if statement in figure \ref{fig:User not in ROLES}. It was also necessary to add this to the index.html.twig.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/edit_action.png} % requires the graphicx package
+   \caption{editAction}
+   \label{fig:editAction}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/show_page.png} % requires the graphicx package
+   \caption{Show Page}
+   \label{fig:Show Page}
+\end{figure}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/user_not_in_roles.png} % requires the graphicx package
+   \caption{User not in ROLES}
+   \label{fig:User not in ROLES}
+\end{figure}
+
+\section{Registration}
+
+\subsection{Registration Controller}
+
+The RegisterController was associated with creating an action which creates a form. Displays it and processes the form for a new user.
+
+\begin{itemize}
+  \item Create RegisterController.
+    \item Create a new register template.
+      \item Add flashbag messages.
+\end{itemize}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/register_controller.png} % requires the graphicx package
+   \caption{RegisterController}
+   \label{fig:RegisterController}
+\end{figure}
+
+Using the entity of type user. A variable of type form was created. Inside that variable a createForm object was placed. It uses the new UserType and the entity which the form was created from. For this form the isAdmin was removed as it was not needed. And a button created for the submission. This is not using the template object so what needs to be returned is a rendering statement as this render. Placed inside is the template which it will be using which is the argument. In this case it was the register template. An array was added and this is where the objects are passed to the response object which creates the view. The entity is passed into the array and then the form. A route is then defined as annotation using @Route /register. Another annotation needed was the @Template to tell that annotation which twig file it will be rendering from.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/register_html_twig.png} % requires the graphicx package
+   \caption{Register Twig Template}
+   \label{fig:Register Twig Template}
+\end{figure}
+
+The register template is very similar in code to the new user creation form. This form request needed to be handled. It was achieved by whats on line 33 of figure \ref{fig:RegisterController}. Then do a check to see if the form was posted and if it was valid. If the form was posted and was not valid there needed to be a redirect to the same place in order to be rendered with mistakes which come in the entity.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/register_errors.png} % requires the graphicx package
+   \caption{Register with Errors}
+   \label{fig:Register with Errors}
+\end{figure}
+
+When handling the form incase it was valid. There were a couple of values which needed to be explicitly set as it was not handled by the FormType. The password needed to be encoded. And set ROLE USER inside the set roles method and that needed to be of type array. And call the setAdmin method and called it false as the new user was not able to be made admin at that position. The entity was persisted and then flushed to the database. Once the user had completed the registration process they were redirected to the login page and asked to login.
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=400pt]{figures/register_successful.png} % requires the graphicx package
+   \caption{Registration Successful}
+   \label{fig:Registration Successful}
+\end{figure}
+
+In order for it to not be a surprise a flash message was generated in order to let the user know that the registration was successful. This is seen in figure \ref{fig:Registration Successful}.
 
 
 

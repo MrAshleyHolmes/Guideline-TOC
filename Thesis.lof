@@ -25,7 +25,7 @@
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Web Debug Toolbar and Profiler Extended}}{27}{figure.4.12}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Web Debug Toolbar and Profiler}}{28}{figure.4.13}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces DefaultController}}{29}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Twig Template in IDE}}{29}{figure.4.15}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Twig template in IDE}}{29}{figure.4.15}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Adding Bootstrap}}{30}{figure.4.16}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Adding Bootstrap}}{31}{figure.4.17}
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Home Page}}{31}{figure.4.18}
@@ -33,7 +33,7 @@
 \contentsline {figure}{\numberline {4.20}{\ignorespaces Mamp Ports}}{33}{figure.4.20}
 \contentsline {figure}{\numberline {4.21}{\ignorespaces Entities}}{34}{figure.4.21}
 \contentsline {figure}{\numberline {4.22}{\ignorespaces User Table}}{34}{figure.4.22}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Twig Templates}}{35}{figure.4.23}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Twig templates}}{35}{figure.4.23}
 \contentsline {figure}{\numberline {4.24}{\ignorespaces Form Type}}{35}{figure.4.24}
 \contentsline {figure}{\numberline {4.25}{\ignorespaces index.html.twig}}{37}{figure.4.25}
 \contentsline {figure}{\numberline {4.26}{\ignorespaces new.html.twig}}{38}{figure.4.26}
@@ -57,12 +57,68 @@
 \contentsline {figure}{\numberline {4.44}{\ignorespaces Hash Password}}{52}{figure.4.44}
 \contentsline {figure}{\numberline {4.45}{\ignorespaces getSalt Method}}{53}{figure.4.45}
 \contentsline {figure}{\numberline {4.46}{\ignorespaces Password}}{53}{figure.4.46}
-\contentsline {figure}{\numberline {4.47}{\ignorespaces UserInterface}}{55}{figure.4.47}
+\contentsline {figure}{\numberline {4.47}{\ignorespaces UserInterface}}{54}{figure.4.47}
+\contentsline {figure}{\numberline {4.48}{\ignorespaces UserManager}}{56}{figure.4.48}
+\contentsline {figure}{\numberline {4.49}{\ignorespaces Yaml Services}}{57}{figure.4.49}
+\contentsline {figure}{\numberline {4.50}{\ignorespaces UserController}}{57}{figure.4.50}
+\contentsline {figure}{\numberline {4.51}{\ignorespaces Password Twig template}}{58}{figure.4.51}
+\contentsline {figure}{\numberline {4.52}{\ignorespaces Change Password Form}}{59}{figure.4.52}
+\contentsline {figure}{\numberline {4.53}{\ignorespaces passwordAction Controller}}{59}{figure.4.53}
+\contentsline {figure}{\numberline {4.54}{\ignorespaces createPassword Form}}{61}{figure.4.54}
+\contentsline {figure}{\numberline {4.55}{\ignorespaces Password Form Validation}}{62}{figure.4.55}
+\contentsline {figure}{\numberline {4.56}{\ignorespaces SecurityController}}{63}{figure.4.56}
+\contentsline {figure}{\numberline {4.57}{\ignorespaces Login Form}}{64}{figure.4.57}
+\contentsline {figure}{\numberline {4.58}{\ignorespaces Symfony Login Profiler}}{64}{figure.4.58}
+\contentsline {figure}{\numberline {4.59}{\ignorespaces Symfony Login Profiler}}{65}{figure.4.59}
+\contentsline {figure}{\numberline {4.60}{\ignorespaces Login Form Error}}{66}{figure.4.60}
+\contentsline {figure}{\numberline {4.61}{\ignorespaces User Roles in the the base template}}{67}{figure.4.61}
+\contentsline {figure}{\numberline {4.62}{\ignorespaces UserRepository}}{67}{figure.4.62}
+\contentsline {figure}{\numberline {4.63}{\ignorespaces JSON array}}{68}{figure.4.63}
+\contentsline {figure}{\numberline {4.64}{\ignorespaces isAdmin}}{69}{figure.4.64}
+\contentsline {figure}{\numberline {4.65}{\ignorespaces CheckboxType}}{70}{figure.4.65}
+\contentsline {figure}{\numberline {4.66}{\ignorespaces CSRF Token}}{72}{figure.4.66}
+\contentsline {figure}{\numberline {4.67}{\ignorespaces CSRF Token Browser}}{72}{figure.4.67}
+\contentsline {figure}{\numberline {4.68}{\ignorespaces editAction}}{74}{figure.4.68}
+\contentsline {figure}{\numberline {4.69}{\ignorespaces Show Page}}{74}{figure.4.69}
+\contentsline {figure}{\numberline {4.70}{\ignorespaces User not in ROLES}}{75}{figure.4.70}
+\contentsline {figure}{\numberline {4.71}{\ignorespaces RegisterController}}{76}{figure.4.71}
+\contentsline {figure}{\numberline {4.72}{\ignorespaces Register Twig Template}}{77}{figure.4.72}
+\contentsline {figure}{\numberline {4.73}{\ignorespaces Register with Errors}}{77}{figure.4.73}
+\contentsline {figure}{\numberline {4.74}{\ignorespaces Registration Successful}}{78}{figure.4.74}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Intentional Error Register}}{80}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Intentional Error Login}}{80}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Debug Error Register}}{81}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Profiler Error Register}}{81}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Register Test}}{82}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Successful Registration}}{83}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Database Check}}{84}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Mr Oz Machado Login}}{84}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Oz Machado Authenticated}}{85}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Oz Machado Index Page}}{85}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Oz Machado Show Page}}{86}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Oz Name Changed}}{86}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Oz Password Changed}}{87}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Oz Password Changed DB}}{88}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Oz ROLES Changed}}{88}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Oz ROLES Changed in DB}}{89}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Cover Form Validation}}{90}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Cover Generation Step 1}}{90}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Cover Generation Step 2}}{91}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Cover Generation Step 3}}{91}{figure.5.20}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Cover Generation Step 4}}{92}{figure.5.21}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Cover Page Successful}}{92}{figure.5.22}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Cover Page Successful DB}}{93}{figure.5.23}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Question Page Successful}}{93}{figure.5.24}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Question Page Successful DB}}{94}{figure.5.25}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Question Page Metadata}}{94}{figure.5.26}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Cover Page Successful DB}}{95}{figure.5.27}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Metadata from database}}{95}{figure.5.28}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Graphical illustration of the Login Screen}}{64}{figure.0.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Graphical illustration of the Question Entry}}{65}{figure.0.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Graphical illustration of the Generate a Question Paper}}{66}{figure.0.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Graphical illustration of the Menu List to view the Questions}}{67}{figure.0.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Graphical illustration of the Show list}}{68}{figure.0.5}
+\contentsline {figure}{\numberline {1}{\ignorespaces Graphical illustration of the Login Screen}}{104}{figure.0.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Graphical illustration of the Question Entry}}{105}{figure.0.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Graphical illustration of the Generate a Question Paper}}{106}{figure.0.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Graphical illustration of the Menu List to view the Questions}}{107}{figure.0.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Graphical illustration of the Show list}}{108}{figure.0.5}

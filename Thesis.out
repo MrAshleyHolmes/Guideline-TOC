@@ -54,39 +54,71 @@
 \BOOKMARK [2][-]{subsection.4.10.1}{Fixtures with Faker}{section.4.10}% 54
 \BOOKMARK [1][-]{section.4.11}{Passwords}{chapter.4}% 55
 \BOOKMARK [2][-]{subsection.4.11.1}{Password Fixtures}{section.4.11}% 56
-\BOOKMARK [1][-]{section.4.12}{Passwords}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.12.1}{Password Services}{section.4.12}% 58
-\BOOKMARK [0][-]{chapter.5}{Implementation of the System}{}% 59
-\BOOKMARK [1][-]{section.5.1}{Implementation Principles}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.1.1}{Object-Oriented Approach}{section.5.1}% 61
-\BOOKMARK [2][-]{subsection.5.1.2}{Design Patterns}{section.5.1}% 62
-\BOOKMARK [2][-]{subsection.5.1.3}{Choice of Language}{section.5.1}% 63
-\BOOKMARK [1][-]{section.5.2}{Stages of Admin Implementation}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.2.1}{Login}{section.5.2}% 65
-\BOOKMARK [2][-]{subsection.5.2.2}{Administration}{section.5.2}% 66
-\BOOKMARK [2][-]{subsection.5.2.3}{Subsection header 3}{section.5.2}% 67
-\BOOKMARK [1][-]{section.5.3}{Stages of User Implementation}{chapter.5}% 68
-\BOOKMARK [2][-]{subsection.5.3.1}{Subsection header 1}{section.5.3}% 69
-\BOOKMARK [2][-]{subsection.5.3.2}{Subsection header 2}{section.5.3}% 70
-\BOOKMARK [2][-]{subsection.5.3.3}{Subsection header 3}{section.5.3}% 71
-\BOOKMARK [1][-]{section.5.4}{Design}{chapter.5}% 72
-\BOOKMARK [2][-]{subsection.5.4.1}{Subsection header 1}{section.5.4}% 73
-\BOOKMARK [2][-]{subsection.5.4.2}{Subsection header 2}{section.5.4}% 74
-\BOOKMARK [2][-]{subsection.5.4.3}{Subsection header 3}{section.5.4}% 75
-\BOOKMARK [0][-]{chapter.6}{Testing and Evaluation}{}% 76
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 77
-\BOOKMARK [1][-]{section.6.2}{Tests Conducted}{chapter.6}% 78
-\BOOKMARK [1][-]{section.6.3}{Algorithms}{chapter.6}% 79
-\BOOKMARK [1][-]{section.6.4}{Summary}{chapter.6}% 80
-\BOOKMARK [0][-]{chapter.7}{Conclusion and Future work}{}% 81
-\BOOKMARK [1][-]{section.7.1}{Contributions}{chapter.7}% 82
-\BOOKMARK [1][-]{section.7.2}{Limitations}{chapter.7}% 83
-\BOOKMARK [1][-]{section.7.3}{Future Work}{chapter.7}% 84
-\BOOKMARK [1][-]{section.7.4}{Data Collection}{chapter.7}% 85
-\BOOKMARK [0][-]{section.7.4}{Bibliography}{}% 86
-\BOOKMARK [0][-]{chapter*.8}{Appendices}{}% 87
-\BOOKMARK [1][-]{section.0.1}{Web Application Login Screen}{chapter*.8}% 88
-\BOOKMARK [1][-]{section.0.2}{Web Application Question Entry}{chapter*.8}% 89
-\BOOKMARK [1][-]{section.0.3}{Generate a Question}{chapter*.8}% 90
-\BOOKMARK [1][-]{section.0.4}{Show questions}{chapter*.8}% 91
-\BOOKMARK [1][-]{section.0.5}{Show}{chapter*.8}% 92
+\BOOKMARK [2][-]{subsection.4.11.2}{Password Services}{section.4.11}% 57
+\BOOKMARK [2][-]{subsection.4.11.3}{Change Password Form}{section.4.11}% 58
+\BOOKMARK [1][-]{section.4.12}{Authentication}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.12.1}{Login Form}{section.4.12}% 60
+\BOOKMARK [1][-]{section.4.13}{Controllers}{chapter.4}% 61
+\BOOKMARK [2][-]{subsection.4.13.1}{Extending the controller}{section.4.13}% 62
+\BOOKMARK [1][-]{section.4.14}{Roles}{chapter.4}% 63
+\BOOKMARK [2][-]{subsection.4.14.1}{Putting roles in the database}{section.4.14}% 64
+\BOOKMARK [2][-]{subsection.4.14.2}{Using the roles in the database}{section.4.14}% 65
+\BOOKMARK [1][-]{section.4.15}{Authorisation}{chapter.4}% 66
+\BOOKMARK [2][-]{subsection.4.15.1}{Access Control}{section.4.15}% 67
+\BOOKMARK [1][-]{section.4.16}{CSRF Protection}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.16.1}{Testing the roles}{section.4.16}% 69
+\BOOKMARK [2][-]{subsection.4.16.2}{Controller and templates adjustments based on user roles}{section.4.16}% 70
+\BOOKMARK [1][-]{section.4.17}{Registration}{chapter.4}% 71
+\BOOKMARK [2][-]{subsection.4.17.1}{Registration Controller}{section.4.17}% 72
+\BOOKMARK [0][-]{chapter.5}{Testing - "Testing and evaluation"}{}% 73
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.2}{Testing the Homepage}{chapter.5}% 75
+\BOOKMARK [2][-]{subsection.5.2.1}{Functional Testing}{section.5.2}% 76
+\BOOKMARK [1][-]{section.5.3}{Testing Registration}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.3.1}{Successful Registration}{section.5.3}% 78
+\BOOKMARK [1][-]{section.5.4}{Testing Login}{chapter.5}% 79
+\BOOKMARK [2][-]{subsection.5.4.1}{Successful Login}{section.5.4}% 80
+\BOOKMARK [1][-]{section.5.5}{Testing Editing}{chapter.5}% 81
+\BOOKMARK [2][-]{subsection.5.5.1}{Successful Editing Function}{section.5.5}% 82
+\BOOKMARK [1][-]{section.5.6}{Testing Password}{chapter.5}% 83
+\BOOKMARK [2][-]{subsection.5.6.1}{Successful Password Editing}{section.5.6}% 84
+\BOOKMARK [1][-]{section.5.7}{Testing ROLES}{chapter.5}% 85
+\BOOKMARK [2][-]{subsection.5.7.1}{ROLE Changes}{section.5.7}% 86
+\BOOKMARK [1][-]{section.5.8}{Testing Exam Cover Page}{chapter.5}% 87
+\BOOKMARK [2][-]{subsection.5.8.1}{Successful Form Validation}{section.5.8}% 88
+\BOOKMARK [1][-]{section.5.9}{Testing Question Page}{chapter.5}% 89
+\BOOKMARK [2][-]{subsection.5.9.1}{Successful Form Validation}{section.5.9}% 90
+\BOOKMARK [0][-]{chapter.6}{Implementation of the System}{}% 91
+\BOOKMARK [1][-]{section.6.1}{Implementation Principles}{chapter.6}% 92
+\BOOKMARK [2][-]{subsection.6.1.1}{Object-Oriented Approach}{section.6.1}% 93
+\BOOKMARK [2][-]{subsection.6.1.2}{Design Patterns}{section.6.1}% 94
+\BOOKMARK [2][-]{subsection.6.1.3}{Choice of Language}{section.6.1}% 95
+\BOOKMARK [1][-]{section.6.2}{Stages of Admin Implementation}{chapter.6}% 96
+\BOOKMARK [2][-]{subsection.6.2.1}{Login}{section.6.2}% 97
+\BOOKMARK [2][-]{subsection.6.2.2}{Administration}{section.6.2}% 98
+\BOOKMARK [2][-]{subsection.6.2.3}{Subsection header 3}{section.6.2}% 99
+\BOOKMARK [1][-]{section.6.3}{Stages of User Implementation}{chapter.6}% 100
+\BOOKMARK [2][-]{subsection.6.3.1}{Subsection header 1}{section.6.3}% 101
+\BOOKMARK [2][-]{subsection.6.3.2}{Subsection header 2}{section.6.3}% 102
+\BOOKMARK [2][-]{subsection.6.3.3}{Subsection header 3}{section.6.3}% 103
+\BOOKMARK [1][-]{section.6.4}{Design}{chapter.6}% 104
+\BOOKMARK [2][-]{subsection.6.4.1}{Subsection header 1}{section.6.4}% 105
+\BOOKMARK [2][-]{subsection.6.4.2}{Subsection header 2}{section.6.4}% 106
+\BOOKMARK [2][-]{subsection.6.4.3}{Subsection header 3}{section.6.4}% 107
+\BOOKMARK [0][-]{chapter.7}{Testing and Evaluation}{}% 108
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 109
+\BOOKMARK [1][-]{section.7.2}{Tests Conducted}{chapter.7}% 110
+\BOOKMARK [1][-]{section.7.3}{Algorithms}{chapter.7}% 111
+\BOOKMARK [1][-]{section.7.4}{Summary}{chapter.7}% 112
+\BOOKMARK [0][-]{chapter.8}{Conclusion and Future work}{}% 113
+\BOOKMARK [1][-]{section.8.1}{Contributions}{chapter.8}% 114
+\BOOKMARK [1][-]{section.8.2}{Limitations}{chapter.8}% 115
+\BOOKMARK [1][-]{section.8.3}{Future Work}{chapter.8}% 116
+\BOOKMARK [1][-]{section.8.4}{Data Collection}{chapter.8}% 117
+\BOOKMARK [0][-]{section.8.4}{Bibliography}{}% 118
+\BOOKMARK [0][-]{chapter*.8}{Appendices}{}% 119
+\BOOKMARK [1][-]{section.0.1}{Web Application Login Screen}{chapter*.8}% 120
+\BOOKMARK [1][-]{section.0.2}{Web Application Question Entry}{chapter*.8}% 121
+\BOOKMARK [1][-]{section.0.3}{Generate a Question}{chapter*.8}% 122
+\BOOKMARK [1][-]{section.0.4}{Show questions}{chapter*.8}% 123
+\BOOKMARK [1][-]{section.0.5}{Show}{chapter*.8}% 124
